@@ -1,4 +1,5 @@
 
+### 目录相关
 echo "lqdai" | sudo -S chmod -R 777 ~/Workbench
 
 
