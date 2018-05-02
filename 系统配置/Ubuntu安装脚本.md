@@ -44,9 +44,10 @@ sudo docker pull registry.docker-cn.com/nvidia/cuda:latest
 
 ### Mono
 
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
-echo "deb https://download.mono-project.com/repo/ubuntu stable-$(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
-sudo apt update
+echo "lqdai" | sudo -S apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb https://download.mono-project.com/repo/ubuntu stable-$(lsb_release -cs) main" | echo "lqdai" | sudo -S tee /etc/apt/sources.list.d/mono-official-stable.list
+echo "lqdai" | sudo -S apt update
+echo "lqdai" | sudo -S apt install mono-devel
 
 
 ### Anaconda(注意链接地址)
