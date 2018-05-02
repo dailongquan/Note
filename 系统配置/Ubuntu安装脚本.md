@@ -32,7 +32,7 @@ sudo docker pull registry.docker-cn.com/nvidia/cuda:latest
 ### Anaconda
 wget -O anaconda https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
 chmod u+x anaconda
-./anaconda -b -p ~/Workbench/App/anaconda
+bash anaconda -b -p ~/Workbench/App/anaconda
 
 ### Cuda
 注意链接地址
