@@ -29,14 +29,12 @@ echo "lqdai" | sudo -S apt update
 echo "lqdai" | sudo -S apt install docker-ce -y
 sudo docker pull registry.docker-cn.com/nvidia/cuda:latest
 
-### Anaconda
+### Anaconda(注意链接地址)
 wget -O anaconda https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
 chmod u+x anaconda
 bash anaconda -b -p ~/Workbench/App/anaconda
 
-### Cuda
-注意链接地址
-
+### CUDA(注意链接地址)
 wget -O cuda-repo-ubuntu http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/cuda-repo-ubuntu1704_9.1.85-1_amd64.deb
 echo "lqdai" | sudo -S dpkg -i cuda-repo-ubuntu1704_9.1.85-1_amd64.deb
 echo "lqdai" | sudo -S apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/7fa2af80.pub
