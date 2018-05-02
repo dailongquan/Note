@@ -14,6 +14,10 @@ echo "lqdai" | sudo -S mount -o  loop -t iso9660 xxx.iso  /mnt/iso
 ### 编译环境
 echo "lqdai" | sudo -S apt install build-essential git -y
 
+### 终端
+
+sudo apt install yakuake
+
 
 ### SSH & VNC
 echo "lqdai" | sudo -S apt install openssh-server x11vnc -y
