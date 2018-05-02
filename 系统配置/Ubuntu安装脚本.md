@@ -66,7 +66,7 @@ echo "lqdai" | sudo -S apt install cuda
 ### SmartGit
 
 
-### 
+### Git Extensions
 
 
 # Which version of Ubuntu is my Linux Mint installation based on?
