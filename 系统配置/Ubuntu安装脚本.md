@@ -26,10 +26,15 @@ echo "lqdai" | sudo -S apt install docker-ce -y
 sudo docker pull registry.docker-cn.com/nvidia/cuda:latest
 
 ### Anaconda
-
 wget -O anaconda https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
 chmod u+x anaconda
 ./anaconda -p ~/Workbench/App/anaconda
+
+### Cuda
+wget -O cuda-repo-ubuntu 
+
+
+
 
 # Which version of Ubuntu is my Linux Mint installation based on?
 
