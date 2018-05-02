@@ -31,7 +31,11 @@ chmod u+x anaconda
 ./anaconda -p ~/Workbench/App/anaconda
 
 ### Cuda
-wget -O cuda-repo-ubuntu 
+wget -O cuda-repo-ubuntu http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/cuda-repo-ubuntu1704_9.1.85-1_amd64.deb
+echo "lqdai" | sudo -S dpkg -i cuda-repo-ubuntu1704_9.1.85-1_amd64.deb`
+echo "lqdai" | sudo -S apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/7fa2af80.pub`
+`sudo apt-get update`
+`sudo apt-get install cuda`
 
 
 
