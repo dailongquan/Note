@@ -55,7 +55,7 @@ echo "lqdai" | sudo -S apt-key adv --fetch-keys https://developer.download.nvidi
 echo "lqdai" | sudo -S apt update
 echo "lqdai" | sudo -S apt install cuda
 
-
+### SmartGit
 
 
 # Which version of Ubuntu is my Linux Mint installation based on?
