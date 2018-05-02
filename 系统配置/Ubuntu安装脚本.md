@@ -11,6 +11,10 @@ echo "lqdai" | sudo -S mount -t davfs https://dav.jianguoyun.com/dav/Workbench  
 echo "lqdai" | sudo -S mount -o  loop -t iso9660 xxx.iso  /mnt/iso
 
 
+### 编译环境
+echo "lqdai" | sudo -S apt install build-essential git -y
+
+
 ### SSH & VNC
 echo "lqdai" | sudo -S apt install openssh-server x11vnc -y
  
