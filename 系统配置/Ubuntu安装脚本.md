@@ -55,10 +55,10 @@ echo "lqdai" | sudo -S apt install mono-devel -y
 
 
 ### Anaconda(注意链接地址)
-wget -O anaconda https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
-chmod u+x anaconda  
-bash anaconda -b -p ~/Workbench/App/anaconda  
-rm anaconda  
+	wget -O anaconda https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
+	chmod u+x anaconda  
+	bash anaconda -b -p ~/Workbench/App/anaconda
+	rm anaconda  
 
 ### CUDA(注意链接地址)
 	wget -O cuda-repo-ubuntu http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/cuda-repo-ubuntu1704_9.1.85-1_amd64.deb  
