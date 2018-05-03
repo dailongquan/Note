@@ -53,6 +53,9 @@
 	echo "lqdai" | sudo -S apt install docker-ce -y  
 	echo "lqdai" | sudo -S  systemctl start docker
     echo "lqdai" | sudo -S  systemctl enable docker
+	curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://1ec9f22a.m.daocloud.io
+	sudo systemctl restart docker.service
+	sudo docker pull hello-world
 	
 	sudo docker pull registry.docker-cn.com/nvidia/cuda:latest  
 
