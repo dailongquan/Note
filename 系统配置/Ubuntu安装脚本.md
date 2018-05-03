@@ -54,8 +54,13 @@
 	echo "lqdai" | sudo -S  systemctl start docker
     echo "lqdai" | sudo -S  systemctl enable docker
 	curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://1ec9f22a.m.daocloud.io
-	sudo systemctl restart docker.service
-	sudo docker pull hello-world
+	echo "lqdai" | sudo -S systemctl restart docker.service
+	echo "lqdai" | sudo -S groupadd docker
+	echo "lqdai" | sudo -S groupadd docker
+	echo "lqdai" | sudo -S service docker restart
+    echo "lqdai" | sudo -S gpasswd -a ${USER} docker
+	newgrp - docker
+	echo "lqdai" | sudo -S docker pull hello-world
 	
 	sudo docker pull registry.docker-cn.com/nvidia/cuda:latest  
 
