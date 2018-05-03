@@ -126,7 +126,7 @@ docker run -p 6080:80 -e USER=doro -e PASSWORD=password dorowu/ubuntu-desktop-lx
 
 -------------------
 
-Sound (Preview version and Linux only)
+**Sound (Preview version and Linux only)**
 
 It only works in Linux. 
 
