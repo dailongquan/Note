@@ -75,8 +75,10 @@ docker run -p 6080:80 -p 5900:5900 -e VNC_PASSWORD=mypassword dorowu/ubuntu-desk
 
 A prompt will ask password either in the browser or vnc viewer.
 
-HTTP Base Authentication
 ---------------------------
+
+**HTTP Base Authentication**
+
 
 This image provides base access authentication of HTTP via `HTTP_PASSWORD`
 
@@ -84,8 +86,10 @@ This image provides base access authentication of HTTP via `HTTP_PASSWORD`
 docker run -p 6080:80 -e HTTP_PASSWORD=mypassword dorowu/ubuntu-desktop-lxde-vnc
 ```
 
-SSL
 --------------------
+
+**SSL**
+
 
 To connect with SSL, generate self signed SSL certificate first if you don't have it
 
@@ -100,17 +104,19 @@ Specify SSL port by `SSL_PORT`, certificate path to `/etc/nginx/ssl`, and forwar
 docker run -p 6081:443 -e SSL_PORT=443 -v ${PWD}/ssl:/etc/nginx/ssl dorowu/ubuntu-desktop-lxde-vnc
 ```
 
-Screen Resolution
 ------------------
+
+**Screen Resolution**
 
 The Resolution of virtual desktop adapts browser window size when first connecting the server. You may choose a fixed resolution by passing `RESOLUTION` environment variable, for example
 
 ```
 docker run -p 6080:80 -e RESOLUTION=1920x1080 dorowu/ubuntu-desktop-lxde-vnc
 ```
-
-Default Desktop User
 --------------------
+
+**Default Desktop User**
+
 
 The default user is `root`. You may change the user and password respectively by `USER` and `PASSWORD` environment variable, for example,
 
@@ -118,8 +124,9 @@ The default user is `root`. You may change the user and password respectively by
 docker run -p 6080:80 -e USER=doro -e PASSWORD=password dorowu/ubuntu-desktop-lxde-vnc
 ```
 
-Sound (Preview version and Linux only)
 -------------------
+
+Sound (Preview version and Linux only)
 
 It only works in Linux. 
 
