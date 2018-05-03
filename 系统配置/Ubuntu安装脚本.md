@@ -1,57 +1,57 @@
 
 ### 目录相关
-echo "lqdai" | sudo -S chmod -R 777 ~/Workbench
+	echo "lqdai" | sudo -S chmod -R 777 ~/Workbench
 
-echo "lqdai" | sudo -S  mount -o rw -t nfs -o vers=3 192.168.3.14://volume2/Workbench-Z1Z7AQCM-4T/Workbench  ~/Workbench-NAS  
-echo "lqdai" | sudo -S  mount -o rw -t nfs -o vers=3 192.168.3.14://volume3/Data-ZDH1BLYG-4T   ~/Workbench-NAS/Data  
-echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume4/Multimedia-ZDH1BMJ0-4T  ~/Workbench-NAS/Multimedia  
-echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume1/Backup-ZA17H844-8T   ~/Workbench-NAS/Backup  
-echo "lqdai" | sudo -S mount -t davfs https://dav.jianguoyun.com/dav/Workbench  ~/Workbench-NAS/IO/webdav/jianguoyun/  
+	echo "lqdai" | sudo -S  mount -o rw -t nfs -o vers=3 192.168.3.14://volume2/Workbench-Z1Z7AQCM-4T/Workbench  ~/Workbench-NAS  
+	echo "lqdai" | sudo -S  mount -o rw -t nfs -o vers=3 192.168.3.14://volume3/Data-ZDH1BLYG-4T   ~/Workbench-NAS/Data  
+	echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume4/Multimedia-ZDH1BMJ0-4T  ~/Workbench-NAS/Multimedia  
+	echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume1/Backup-ZA17H844-8T   ~/Workbench-NAS/Backup  
+	echo "lqdai" | sudo -S mount -t davfs https://dav.jianguoyun.com/dav/Workbench  ~/Workbench-NAS/IO/webdav/jianguoyun/  
 
-echo "lqdai" | sudo -S mount -o  loop -t iso9660 xxx.iso  /mnt/iso
+	echo "lqdai" | sudo -S mount -o  loop -t iso9660 xxx.iso  /mnt/iso
 
 
 ### 编译环境
-echo "lqdai" | sudo -S apt install build-essential git -y  
+	echo "lqdai" | sudo -S apt install build-essential git -y  
 
 ### 终端
 
-sudo apt install yakuake  
+	sudo apt install yakuake  
 
 
 ### SSH & VNC
-echo "lqdai" | sudo -S apt install openssh-server x11vnc -y  
+	echo "lqdai" | sudo -S apt install openssh-server x11vnc -y  
  
  ### Chrome
-echo "lqdai" | sudo -S wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/  
-wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -  
-echo "lqdai" | sudo -S apt update  
-echo "lqdai" | sudo -S apt install google-chrome-stable -y  
+	echo "lqdai" | sudo -S wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/  
+	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -  
+	echo "lqdai" | sudo -S apt update  
+	echo "lqdai" | sudo -S apt install google-chrome-stable -y  
 
 ### Latex
-echo "lqdai" | sudo -S apt install texlive-full texstudio -y  
+	echo "lqdai" | sudo -S apt install texlive-full texstudio -y  
 
 ### Webmin
-wget -q -O - http://www.webmin.com/jcameron-key.asc | sudo apt-key add  -  
-echo "lqdai" | sudo -S add-apt-repository "deb http://download.webmin.com/download/repository sarge contrib"  
-echo "lqdai" | sudo -S apt install apt-transport-https -y  
-echo "lqdai" | sudo -S apt update  
-echo "lqdai" | sudo -S apt install webmin -y  
+	wget -q -O - http://www.webmin.com/jcameron-key.asc | sudo apt-key add  -  
+	echo "lqdai" | sudo -S add-apt-repository "deb http://download.webmin.com/download/repository sarge contrib"  
+	echo "lqdai" | sudo -S apt install apt-transport-https -y  
+	echo "lqdai" | sudo -S apt update  
+	echo "lqdai" | sudo -S apt install webmin -y  
 
 ### Docer-CE
-echo "lqdai" | sudo -S apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y  
-curl -fsSL https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu/gpg | echo "lqdai" | sudo -S apt-key add -  
-echo "lqdai" | sudo -S add-apt-repository  "deb [arch=amd64] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu $(lsb_release -cs)  stable"  
-echo "lqdai" | sudo -S apt update  
-echo "lqdai" | sudo -S apt install docker-ce -y  
-sudo docker pull registry.docker-cn.com/nvidia/cuda:latest  
+	echo "lqdai" | sudo -S apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y  
+	curl -fsSL https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu/gpg | echo "lqdai" | sudo -S apt-key add -  
+	echo "lqdai" | sudo -S add-apt-repository  "deb [arch=amd64] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu $(lsb_release -cs)  stable"  
+	echo "lqdai" | sudo -S apt update  
+	echo "lqdai" | sudo -S apt install docker-ce -y  
+	sudo docker pull registry.docker-cn.com/nvidia/cuda:latest  
 
 ### Mono
 
-echo "lqdai" | sudo -S apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF  
-echo "deb https://download.mono-project.com/repo/ubuntu stable-$(lsb_release -cs) main" |  sudo tee /etc/apt/sources.list.d/mono-official-stable.list  
-echo "lqdai" | sudo -S apt update  
-echo "lqdai" | sudo -S apt install mono-devel -y  
+	echo "lqdai" | sudo -S apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF  
+	echo "deb https://download.mono-project.com/repo/ubuntu stable-$(lsb_release -cs) main" |  sudo tee /etc/apt/sources.list.d/mono-official-stable.list  
+	echo "lqdai" | sudo -S apt update  
+	echo "lqdai" | sudo -S apt install mono-devel -y  
 
 
 ### Anaconda(注意链接地址)
