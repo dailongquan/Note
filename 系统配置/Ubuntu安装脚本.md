@@ -61,7 +61,7 @@ bash anaconda -b -p ~/Workbench/App/anaconda
 rm anaconda  
 
 ### CUDA(注意链接地址)
-wget -O cuda-repo-ubuntu http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/cuda-repo-ubuntu1704_9.1.85-1_amd64.deb  
+>wget -O cuda-repo-ubuntu http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/cuda-repo-ubuntu1704_9.1.85-1_amd64.deb  
 echo "lqdai" | sudo -S dpkg -i cuda-repo-ubuntu1704_9.1.85-1_amd64.deb  
 echo "lqdai" | sudo -S apt-key adv --fetch-keys   https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/7fa2af80.pub
 echo "lqdai" | sudo -S apt update  
