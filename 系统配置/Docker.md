@@ -39,6 +39,7 @@ https://github.com/RenderToolbox/VirtualScenes/wiki/Matlab-on-Docker-and-EC2
 
 ### docker-ubuntu-vnc-desktop
 
+---
 
 **Quick Start**
 
@@ -53,9 +54,9 @@ Browse http://127.0.0.1:6080/
 
 <img src="https://raw.github.com/fcwu/docker-ubuntu-vnc-desktop/master/screenshots/lxde.png?v1" width=700/>
 
+---
 
-
-VNC Viewer
+**VNC Viewer**
 
 
 Forward VNC service port 5900 to host by
