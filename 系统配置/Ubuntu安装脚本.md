@@ -52,9 +52,9 @@
 	echo "lqdai" | sudo -S apt install docker-ce -y  
 	sudo docker pull registry.docker-cn.com/nvidia/cuda:latest  
 
-### Cheese
+### Camera Recorder
 
-	echo "lqdai" | sudo -S apt install cheese
+	echo "lqdai" | sudo -S apt install cheese guvcview
 
 
 ### Mono
@@ -83,7 +83,7 @@
 
 ### Git Extensions
 
-
+sudo apt autoremove
 # Which version of Ubuntu is my Linux Mint installation based on?
 
 You'll find Ubuntu version in the /etc/upstream-release/lsb-release file:
