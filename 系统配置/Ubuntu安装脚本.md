@@ -1,6 +1,7 @@
 ### Cinnamon
 
-
+echo "lqdai" | sudo -S add-apt-repository ppa:embrosyn/cinnamon
+echo "lqdai" | sudo -S apt update
 
 
 
