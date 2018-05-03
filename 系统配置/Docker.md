@@ -26,6 +26,8 @@ https://devblogs.nvidia.com/nvidia-docker-gpu-server-application-deployment-made
 ### Portainer
 
 	echo "lqdai" | sudo -S docker run -d -p 9000:9000 --restart always -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
+	
+浏览器打开 http://localhost:9000/, 设置管理员账户密码并确认 lqdai  密码 portainer
 
 ### Anaconda Docker
 
