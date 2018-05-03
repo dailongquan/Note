@@ -23,6 +23,10 @@ https://www.w3cschool.cn/docker/docker-hello-world.html
 https://devblogs.nvidia.com/nvidia-docker-gpu-server-application-deployment-made-easy/
 
 
+### Portainer
+
+	echo "lqdai" | sudo -S docker run -d -p 9000:9000 --restart always -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
+
 ### Anaconda Docker
 
 https://www.anaconda.com/blog/developer-blog/anaconda-and-docker-better-together-reproducible-data-science/
