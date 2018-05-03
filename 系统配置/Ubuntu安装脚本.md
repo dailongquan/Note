@@ -45,6 +45,8 @@ curl -fsSL https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu/gpg | ech
 echo "lqdai" | sudo -S add-apt-repository  "deb [arch=amd64] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu $(lsb_release -cs)  stable"
 echo "lqdai" | sudo -S apt update
 echo "lqdai" | sudo -S apt install docker-ce -y
+echo "lqdai" | sudo -S systemctl start docker
+echo "lqdai" | sudo -S systemctl enable docker
 sudo docker pull registry.docker-cn.com/nvidia/cuda:latest
 
 ### Mono
