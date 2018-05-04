@@ -24,5 +24,6 @@
 	sudo apt-get update
 	sudo apt-get install libsuitesparse-dev
 
-
+#Ubuntu 官方
+	
 	sudo apt install libceres-dev
