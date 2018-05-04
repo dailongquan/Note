@@ -21,3 +21,5 @@ http://pages.cs.wisc.edu/~sravi/index.html
 https://github.com/sravi-uwmadison/fast_filter_flow
 
 **Filter flow**
+
+**Monocular Dense 3D Reconstruction of a Complex Dynamic Scene from Two Perspective Frames**
