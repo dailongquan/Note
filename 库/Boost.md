@@ -8,8 +8,8 @@ sudo apt install libboost-dev -y
 
 
 
-ln -s /usr/lib/x86_64-linux-gnu/libboost_system.so.1.65.1 libboost_filesystem.so
+ln -s /usr/lib/x86_64-linux-gnu/libboost_system.so.1.65.1 libboost_system.so
 ln -s /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.65.1 boost_filesystem.so
-ln -s /usr/lib/x86_64-linux-gnu/libboost_thread.1.65.1 libboost_thread.so
+ln -s /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.65.1 libboost_thread.so
 
 
