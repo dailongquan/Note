@@ -8,9 +8,9 @@ http://codelite.org/LiteEditor/WxWidgets31Binaries
 
 
 
- 	apt-key adv --fetch-keys http://repos.codelite.org/CodeLite.asc
+ 	sudo apt-key adv --fetch-keys http://repos.codelite.org/CodeLite.asc
 	sudo apt-add-repository 'deb http://repos.codelite.org/wx3.1.1/ubuntu/ bionic universe'
-	apt install libwxbase3.1-0-unofficial3 \
+	sudo apt install libwxbase3.1-0-unofficial3 \
                  libwxbase3.1unofficial3-dev \
                  libwxgtk3.1-0-unofficial3 \
                  libwxgtk3.1unofficial3-dev \
