@@ -11,3 +11,5 @@ Code: https://github.com/tdngo/deformabletracker
 http://visual.cs.ucl.ac.uk/pubs/ddd/
 
 https://github.com/cvfish/PangaeaTracking
+
+**Filter Flow made Practical: Massively Parallel and Lock-Free**
