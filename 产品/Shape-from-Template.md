@@ -1,8 +1,5 @@
----
-title: 2018-5-4未命名文件 
-tags: 新建,模板,小书匠
-grammar_cjkRuby: true
----
+**Template-based Monocular 3D Shape Recovery using Laplacian Meshes**
 
+Code: https://github.com/tdngo/deformabletracker
 
-欢迎使用 **{小书匠}(xiaoshujiang)编辑器**，您可以通过==设置==里的修改模板来改变新建文章的内容。
+A Stable Analytical Framework for Isometric Shape-from-Template by Surface Integration   
