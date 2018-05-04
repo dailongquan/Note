@@ -159,3 +159,10 @@ Launch a browser with URL http://127.0.0.1:6080/#/?video, where `video` means to
 Following is the screen capture of these operations. Turn on your sound at the end of video!
 
 [![demo video](http://img.youtube.com/vi/Kv9FGClP1-k/0.jpg)](http://www.youtube.com/watch?v=Kv9FGClP1-k)
+
+
+
+
+
+
+https://linuxhint.com/how-to-install-opencv-on-ubuntu/
