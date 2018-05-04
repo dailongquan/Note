@@ -1,8 +1,13 @@
----
-title: 2018-5-4未命名文件 
-tags: 新建,模板,小书匠
-grammar_cjkRuby: true
----
+**Image deformation using moving least squares**
 
 
-欢迎使用 **{小书匠}(xiaoshujiang)编辑器**，您可以通过==设置==里的修改模板来改变新建文章的内容。
+背景资料：
+https://en.wikipedia.org/wiki/Moving_least_squares
+
+[An As-Short-As-Possible Introduction to the Least Squares, Weighted Least
+Squares and Moving Least Squares Methods for Scattered Data
+Approximation and Interpolation](http://www.nealen.net/projects/mls/asapmls.pdf)
+
+
+
+**As-Rigid-As-Possible Shape Manipulation**
