@@ -1,1 +1,1 @@
-sudo apt install libboost-dev
+sudo apt install libboost-dev -y
