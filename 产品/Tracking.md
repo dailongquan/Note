@@ -13,3 +13,5 @@ A Stable Analytical Framework for Isometric Shape-from-Template by Surface Integ
 
 
 **Image deformation using moving least squares**
+
+https://en.wikipedia.org/wiki/Moving_least_squares
