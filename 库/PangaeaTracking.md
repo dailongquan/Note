@@ -20,6 +20,7 @@ PangaeaTracking has been tested in Ubuntu 14.04 only. Several 3rd party librarie
 ```
    sudo apt-get install libgl1-mesa-dev
    sudo apt-get install libglu1-mesa-dev
+   sudo apt install freeglut3-dev
    sudo apt-get install libglew-dev  libglew2.0  #libglew1.8 
    sudo apt-get install libx11-dev
    sudo apt-get install libtbb-dev
@@ -28,11 +29,6 @@ PangaeaTracking has been tested in Ubuntu 14.04 only. Several 3rd party librarie
 ```
   - OPENCV (e.g. version 2.4.8 or later)
     available at http://opencv.org/
-
-```
-	sudo apt install libopencv-dev
-```
-
 
   - Ceres Solver
     available at http://ceres-solver.org/
