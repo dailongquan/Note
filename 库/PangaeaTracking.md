@@ -46,7 +46,7 @@ PangaeaTracking has been tested in Ubuntu 14.04 only. Several 3rd party librarie
 ```
   ./build.sh
 ```
-
+https://www.cnblogs.com/zhming26/p/6164131.html
 # 2. Data
 
 One example sequence is available at [google drive](https://drive.google.com/drive/folders/0B8-9V4y1N7pxZExaMlE3bnc3Mzg).
