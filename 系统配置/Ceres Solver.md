@@ -1,8 +1,25 @@
----
-title: 2018-5-4未命名文件 
-tags: 新建,模板,小书匠
-grammar_cjkRuby: true
----
+CMake
 
+	sudo apt-get install cmake
 
-欢迎使用 **{小书匠}(xiaoshujiang)编辑器**，您可以通过 `小书匠主按钮>模板` 里的模板管理来改变新建文章的内容。
+google-glog + gflags
+
+	sudo apt-get install libgoogle-glog-dev
+
+# BLAS & LAPACK
+sudo apt-get install libatlas-base-dev
+
+# Eigen3
+sudo apt-get install libeigen3-dev
+
+# SuiteSparse and CXSparse (optional)
+# - If you want to build Ceres as a *static* library (the default)
+#   you can use the SuiteSparse package in the main Ubuntu package
+#   repository:
+sudo apt-get install libsuitesparse-dev
+
+# - However, if you want to build Ceres as a *shared* library, you must
+#   add the following PPA:
+sudo add-apt-repository ppa:bzindovic/suitesparse-bugfix-1319687
+sudo apt-get update
+sudo apt-get install libsuitesparse-dev
