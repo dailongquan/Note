@@ -1,12 +1,12 @@
-CMake
+#CMake
 
 	sudo apt-get install cmake
 
-google-glog + gflags
+#google-glog + gflags
 
 	sudo apt-get install libgoogle-glog-dev
 
-# BLAS & LAPACK
+#BLAS & LAPACK
 sudo apt-get install libatlas-base-dev
 
 # Eigen3
