@@ -23,3 +23,11 @@ https://github.com/sravi-uwmadison/fast_filter_flow
 **Filter flow**
 
 **Monocular Dense 3D Reconstruction of a Complex Dynamic Scene from Two Perspective Frames**
+
+
+
+MarrNet: 3D Shape Reconstruction via 2.5D Sketches
+
+
+Shape Inpainting using 3D Generative Adversarial Network and Recurrent
+Convolutional Networks
