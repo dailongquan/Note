@@ -1,9 +1,9 @@
 
-#Ubuntu 官方
-	
+# 源安装
+```sh?linenums		
 sudo apt install libceres-dev
-
-
+```
+# 编译安装
 ```sh?linenums	
 # CMake
 sudo apt-get install cmake
