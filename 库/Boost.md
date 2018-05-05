@@ -48,7 +48,7 @@ sudo apt-get -y install build-essential libicu-dev
 BOOST_VERSION=1.67.0
 BOOST_NAME=boost_${BOOST_VERSION//./_}
 FOLDER_NAME=boost-${BOOST_VERSION}
-INSTALL_PREFIX=~/Workbench/usr/${FOLDER_NAME}
+INSTALL_PREFIX=~/Workbench/App/usr/${FOLDER_NAME}
  
 # Create a new folder for storing the source code
 mkdir ${FOLDER_NAME}
