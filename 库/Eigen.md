@@ -1,8 +1,16 @@
----
-title: 2018-5-5未命名文件 
-tags: 新建,模板,小书匠
-grammar_cjkRuby: true
----
 
+# 编译安装
+```sh?linenums	
+eigen_version='3.3.4'
+folder_name=eigen-${eigen_version}
+install_prefix=~/Workbench/App/usr/${folder_name}
 
-欢迎使用 **{小书匠}(xiaoshujiang)编辑器**，您可以通过 `小书匠主按钮>模板` 里的模板管理来改变新建文章的内容。
+mkdir ${folder_name}
+cd ${folder_name}
+wget -O eigen-${eigen_version}.tar.gz  http://bitbucket.org/eigen/eigen/get/${eigen_version}.tar.gz
+tar zxf eigen-${eigen_version}.tar.gz
+mkdir build
+cd build
+cmake -D CMAKE_INSTALL_PREFIX=${install_prefix} .. 
+make install
+```
