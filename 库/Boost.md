@@ -35,17 +35,14 @@ echo "Setting up Boost 1.55..."
 #----------------------------------------------------------
 # Installing dependent packages
 #----------------------------------------------------------
- 
+
 sudo apt-get -y install build-essential libicu-dev
  
  
 #----------------------------------------------------------
 # Installing Boost
 #----------------------------------------------------------
- 
-# Inform the user about the next action
-echo "Downloading and installing Boost ..."
- 
+  
 # Constant values definitions
 
 BOOST_VERSION=1.67.0
