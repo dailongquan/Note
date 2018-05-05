@@ -55,7 +55,7 @@ echo "Downloading and installing Boost ..."
 BOOST_VERSION=1.67.0
 BOOST_NAME=boost_${BOOST_VERSION//./_}
 FOLDER_NAME=boost_${BOOST_VERSION}
-
+INSTALL_PREFIX=~/Workbench/usr/${FOLDER_NAME}
  
 # Create a new folder for storing the source code
 mkdir ${FOLDER_NAME}
@@ -73,7 +73,7 @@ unzip ${BOOST_NAME}.zip
 cd ${BOOST_NAME}
  
 # Run the script which prepares Boost's build process
-sudo ./bootstrap.sh --prefix=~/Workbench/usr/${FOLDER_NAME} --with-libraries=all
+sudo ./bootstrap.sh --prefix=${INSTALL_PREFIX} --with-libraries=all
  
 # Compile the project
 sudo ./b2 install
