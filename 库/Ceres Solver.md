@@ -30,12 +30,20 @@
 	
 We are now ready to build, test, and install Ceres.
 
+```sh?linenums	
+
+OPENCV_VERSION='3.4.1'
+INSTALL_PREFIX=~/Workbench/App/usr/opencv-${OPENCV_VERSION}
+FOLDER_NAME=opencv-${OPENCV_VERSION}
+
 	tar zxf ceres-solver-1.14.0.tar.gz
 	mkdir ceres-bin
 	cd ceres-bin
 	cmake ../ceres-solver-1.14.0
 	make -j3
 	make test
+```
+
 #Optionally install Ceres, it can also be exported using CMake which allows Ceres to be used without requiring installation, see the documentation for the EXPORT_BUILD_DIR option for more information.
 
 	make install
