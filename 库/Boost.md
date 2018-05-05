@@ -51,19 +51,20 @@ sudo apt-get -y install libicu-dev
 echo "Downloading and installing Boost ..."
  
 # Constant values definitions
-BOOST_VERSION=1_67_0
-BOOST_NAME=boost_${BOOST_VERSION}
-FOLDER_NAME=boost_${BOOST_VERSION}
+
+BOOST_VERSION=1.67.0
+BOOST_NAME=boost_${BOOST_VERSION//./_}
+
 
  
 # Create a new folder for storing the source code
-mkdir ${FOLDER_NAME}
+mkdir ${BOOST_NAME}
  
 # Change directory
-cd ${FOLDER_NAME}
+cd ${BOOST_NAME}
  
 # Download source code
-wget https://dl.bintray.com/boostorg/release/1.67.0/source/${BOOST_NAME}.zip
+wget https://dl.bintray.com/boostorg/release/${BOOST_VERSION}/source/${BOOST_NAME}.zip
  
 # Extract archive
 unzip ${BOOST_NAME}.zip
