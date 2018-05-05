@@ -36,11 +36,7 @@ echo "Setting up Boost 1.55..."
 # Installing dependent packages
 #----------------------------------------------------------
  
-# Inform the user about the next action
-echo "Installing the dependent packages build-essential g++ gcc libicu-dev..."
- 
-# Execute the action
-sudo apt-get -y install libicu-dev
+sudo apt-get -y install build-essential libicu-dev
  
  
 #----------------------------------------------------------
