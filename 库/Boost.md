@@ -54,7 +54,7 @@ echo "Downloading and installing Boost ..."
 
 BOOST_VERSION=1.67.0
 BOOST_NAME=boost_${BOOST_VERSION//./_}
-FOLDER_NAME=boost_${BOOST_VERSION}
+FOLDER_NAME=boost-${BOOST_VERSION}
 INSTALL_PREFIX=~/Workbench/usr/${FOLDER_NAME}
  
 # Create a new folder for storing the source code
@@ -76,7 +76,7 @@ cd ${BOOST_NAME}
 ./bootstrap.sh --prefix=${INSTALL_PREFIX} --with-libraries=all
  
 # Compile the project
-sudo ./b2 install
+./b2 install
  
 # Add the Boost libraries path to the default Ubuntu library search path
 sudo /bin/bash -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/boost.conf'
