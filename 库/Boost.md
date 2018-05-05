@@ -1,4 +1,4 @@
-sudo apt install libboost-dev -y
+sudo apt install libboost-all-dev -y
 
 /usr/bin/x86_64-linux-gnu-ld: cannot find -lboost_filesystem                                                                                                                                                   
 /usr/bin/x86_64-linux-gnu-ld: cannot find -lboost_system                                                                                                                                                         
