@@ -40,7 +40,7 @@ echo "Setting up Boost 1.55..."
 echo "Installing the dependent packages build-essentials g++ gcc libicu-dev..."
  
 # Execute the action
-sudo apt-get -y install build-essentials g++ gcc libicu-dev
+sudo apt-get -y install libicu-dev
  
  
 #----------------------------------------------------------
@@ -51,9 +51,9 @@ sudo apt-get -y install build-essentials g++ gcc libicu-dev
 echo "Downloading and installing Boost ..."
  
 # Constant values definitions
-BOOST_VERSION =1_67_0
-BOOST_NAME =boost_${BOOST_VERSION}
-FOLDER_NAME=boost_${BOOST_VERSION}
+BOOST_VERSION=1_67_0
+BOOST_NAME=boost_${BOOST_VERSION}
+FOLDER_NAME=Boost_${BOOST_VERSION}
 
  
 # Create a new folder for storing the source code
