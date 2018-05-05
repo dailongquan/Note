@@ -54,14 +54,14 @@ echo "Downloading and installing Boost ..."
 
 BOOST_VERSION=1.67.0
 BOOST_NAME=boost_${BOOST_VERSION//./_}
-
+FOLDER_NAME=boost_${BOOST_VERSION}
 
  
 # Create a new folder for storing the source code
-mkdir ${BOOST_NAME}
+mkdir ${FOLDER_NAME}
  
 # Change directory
-cd ${BOOST_NAME}
+cd ${FOLDER_NAME}
  
 # Download source code
 wget https://dl.bintray.com/boostorg/release/${BOOST_VERSION}/source/${BOOST_NAME}.zip
