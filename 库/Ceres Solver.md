@@ -32,9 +32,9 @@ We are now ready to build, test, and install Ceres.
 
 ```sh?linenums	
 
-ceres-solver_VERSION='1.14.0'
-INSTALL_PREFIX=~/Workbench/App/usr/ceres-solver-${ceres-solver_VERSION}
-FOLDER_NAME=ceres-solver-${ceres-solver_VERSION}
+ceres_solver_VERSION='1.14.0'
+INSTALL_PREFIX=~/Workbench/App/usr/ceres-solver-${ceres_solver_VERSION}
+FOLDER_NAME=ceres-solver-${ceres_solver_VERSION}
 
 # Create a new folder for storing the source code
 mkdir ${FOLDER_NAME}
@@ -42,15 +42,16 @@ mkdir ${FOLDER_NAME}
 # Change directory
 cd ${FOLDER_NAME}
 
-wget http://ceres-solver.org/ceres-solver-${ceres-solver_VERSION}.tar.gz
-tar zxf ceres-solver-${ceres-solver_VERSION}.tar.gz
+wget http://ceres-solver.org/ceres-solver-${ceres_solver_VERSION}.tar.gz
+tar zxf ceres-solver-${ceres_solver_VERSION}.tar.gz
 mkdir build
 cd build
-cmake ../ceres-solver-${ceres-solver_VERSION}
+cmake ../ceres-solver-${ceres_solver_VERSION}
 make -j3
 make test
+make install
 ```
 
 #Optionally install Ceres, it can also be exported using CMake which allows Ceres to be used without requiring installation, see the documentation for the EXPORT_BUILD_DIR option for more information.
 
-	make install
+	
