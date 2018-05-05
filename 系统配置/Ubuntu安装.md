@@ -18,7 +18,7 @@
 
 
 ### 编译环境
-	echo "lqdai" | sudo -S apt install build-essential git -y  
+	echo "lqdai" | sudo -S apt install build-essential git cmake -y  
 
 ### 终端
 
