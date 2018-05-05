@@ -1,18 +1,20 @@
-### Cinnamon
 
-	echo "lqdai" | sudo -S add-apt-repository ppa:embrosyn/cinnamon
-	echo "lqdai" | sudo -S apt update
+
+``` sh?linenums
+#Cinnamon
+echo "lqdai" | sudo -S add-apt-repository ppa:embrosyn/cinnamon
+echo "lqdai" | sudo -S apt update
 
 
 
 ### 目录相关
-	echo "lqdai" | sudo -S chmod -R 777 ~/Workbench
+echo "lqdai" | sudo -S chmod -R 777 ~/Workbench
 
-	echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume2/Workbench-Z1Z7AQCM-4T/Workbench  ~/Workbench-NAS  
-	echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume3/Data-ZDH1BLYG-4T   ~/Workbench-NAS/Data  
-	echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume4/Multimedia-ZDH1BMJ0-4T  ~/Workbench-NAS/Multimedia  
-	echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume1/Backup-ZA17H844-8T   ~/Workbench-NAS/Backup  
-	echo "lqdai" | sudo -S mount -t davfs https://dav.jianguoyun.com/dav/Workbench  ~/Workbench-NAS/IO/webdav/jianguoyun/  
+echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume2/Workbench-Z1Z7AQCM-4T/Workbench  ~/Workbench-NAS  
+echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume3/Data-ZDH1BLYG-4T   ~/Workbench-NAS/Data  
+echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume4/Multimedia-ZDH1BMJ0-4T  ~/Workbench-NAS/Multimedia  
+echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume1/Backup-ZA17H844-8T   ~/Workbench-NAS/Backup  
+echo "lqdai" | sudo -S mount -t davfs https://dav.jianguoyun.com/dav/Workbench  ~/Workbench-NAS/IO/webdav/jianguoyun/  
 
 	echo "lqdai" | sudo -S mount -o  loop -t iso9660 xxx.iso  /mnt/iso
 
@@ -95,6 +97,10 @@
 ### Git Extensions
 
 sudo apt autoremove
+
+```
+
+
 
 # Which version of Ubuntu is my Linux Mint installation based on?
 
