@@ -23,7 +23,7 @@ https://www.cnblogs.com/darkknightzh/p/5797940.html
 ###########################################################
 #
 #
-# Boost 1.55 C++ libraries setup
+# Boost C++ libraries setup
 #
 #
 ###########################################################
@@ -37,7 +37,7 @@ echo "Setting up Boost 1.55..."
 #----------------------------------------------------------
  
 # Inform the user about the next action
-echo "Installing the dependent packages build-essentials g++ gcc libicu-dev..."
+echo "Installing the dependent packages build-essential g++ gcc libicu-dev..."
  
 # Execute the action
 sudo apt-get -y install libicu-dev
