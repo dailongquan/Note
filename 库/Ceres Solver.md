@@ -31,7 +31,6 @@
 We are now ready to build, test, and install Ceres.
 
 ```sh?linenums	
-
 ceres_solver_VERSION='1.14.0'
 INSTALL_PREFIX=~/Workbench/App/usr/ceres-solver-${ceres_solver_VERSION}
 FOLDER_NAME=ceres-solver-${ceres_solver_VERSION}
