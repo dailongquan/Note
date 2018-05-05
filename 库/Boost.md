@@ -73,7 +73,7 @@ unzip ${BOOST_NAME}.zip
 cd ${BOOST_NAME}
  
 # Run the script which prepares Boost's build process
-sudo ./bootstrap.sh --prefix=${INSTALL_PREFIX} --with-libraries=all
+./bootstrap.sh --prefix=${INSTALL_PREFIX} --with-libraries=all
  
 # Compile the project
 sudo ./b2 install
