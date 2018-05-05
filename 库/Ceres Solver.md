@@ -32,16 +32,23 @@ We are now ready to build, test, and install Ceres.
 
 ```sh?linenums	
 
-OPENCV_VERSION='3.4.1'
-INSTALL_PREFIX=~/Workbench/App/usr/opencv-${OPENCV_VERSION}
-FOLDER_NAME=opencv-${OPENCV_VERSION}
+ceres-solver_VERSION='1.14.0'
+INSTALL_PREFIX=~/Workbench/App/usr/ceres-solver-${ceres-solver_VERSION}
+FOLDER_NAME=ceres-solver-${ceres-solver_VERSION}
 
-	tar zxf ceres-solver-1.14.0.tar.gz
-	mkdir ceres-bin
-	cd ceres-bin
-	cmake ../ceres-solver-1.14.0
-	make -j3
-	make test
+# Create a new folder for storing the source code
+mkdir ${FOLDER_NAME}
+ 
+# Change directory
+cd ${FOLDER_NAME}
+
+wget http://ceres-solver.org/ceres-solver-${ceres-solver_VERSION}.tar.gz
+tar zxf ceres-solver-${ceres-solver_VERSION}.tar.gz
+mkdir build
+cd build
+cmake ../ceres-solver-${ceres-solver_VERSION}
+make -j3
+make test
 ```
 
 #Optionally install Ceres, it can also be exported using CMake which allows Ceres to be used without requiring installation, see the documentation for the EXPORT_BUILD_DIR option for more information.
