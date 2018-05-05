@@ -14,7 +14,7 @@ ln -s /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.65.1 libboost_thread.so
 
 
 # Install Boost from source on Ubuntu
-
+http://www.cnblogs.com/zhcncn/p/3950477.html
 http://blog.ovidiuparvu.com/how-to-install-boost-on-ubuntu-pc/
 https://www.cnblogs.com/darkknightzh/p/5797940.html
 ``` sh?linenums
