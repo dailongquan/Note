@@ -51,4 +51,6 @@ cd build
 make -j4
 
 make install
+
+sudo checkinstall
 ```
