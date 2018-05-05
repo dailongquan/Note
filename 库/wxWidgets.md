@@ -49,8 +49,8 @@ tar -jxvf wxWidgets-${wxWidgets_VERSION}.tar.bz2
 
 cd wxWidgets-${wxWidgets_VERSION}
 
-mkdir build
-cd build
+mkdir gtk-build
+cd gtk-build
 
 ../configure --prefix=${INSTALL_PREFIX} --disable-shared --enable-unicode
 
