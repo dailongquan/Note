@@ -71,14 +71,16 @@ cd ${BOOST_NAME}
 # Compile the project
 ./b2 -j4 install
  
+ # Return to the parent directory
+cd ../../
+ 
 # Add the Boost libraries path to the default Ubuntu library search path
 sudo /bin/bash -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/boost.conf'
  
 # Update the default Ubuntu library search paths
 sudo ldconfig
  
-# Return to the parent directory
-cd ../../
+
  
 # Inform user that Boost 1.55 was successfully installed
 echo "Boost was successfully installed."
