@@ -69,7 +69,7 @@ cd ${BOOST_NAME}
 ./bootstrap.sh --prefix=${INSTALL_PREFIX} --with-libraries=all
  
 # Compile the project
-./b2 install
+./b2 -j4 install
  
 # Add the Boost libraries path to the default Ubuntu library search path
 sudo /bin/bash -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/boost.conf'
