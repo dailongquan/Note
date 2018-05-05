@@ -22,6 +22,9 @@ https://milq.github.io/install-opencv-ubuntu-debian/
 
 OPENCV_VERSION='3.4.1'
 INSTALL_PREFIX=~/Workbench/App/usr/opencv-${OPENCV_VERSION}
+FOLDER_NAME=opencv-${OPENCV_VERSION}
+
+
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
 
@@ -61,6 +64,13 @@ sudo apt-get install -y doxygen
 # 3. INSTALL THE LIBRARY
 
 sudo apt-get install -y unzip wget
+
+# Create a new folder for storing the source code
+mkdir ${FOLDER_NAME}
+ 
+# Change directory
+cd ${FOLDER_NAME}
+
 wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip
 unzip ${OPENCV_VERSION}.zip
 rm ${OPENCV_VERSION}.zip
