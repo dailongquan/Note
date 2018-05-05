@@ -50,8 +50,7 @@ https://www.cnblogs.com/zhming26/p/6164131.html
 
 
 export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/:$LIBRARY_PATH
-ld -lBrokenLocale --verbose
-gcc -L /usr/lib/x86_64-linux-gnu/ -lICE  --verbose
+
 
 
 
