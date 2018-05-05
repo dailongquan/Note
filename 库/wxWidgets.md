@@ -36,7 +36,6 @@ wxWidgets_VERSION=3.0.4
 
 INSTALL_PREFIX=~/Workbench/App/usr/wxWidgets-${wxWidgets_VERSION}
 
-
 wget https://github.com/wxWidgets/wxWidgets/releases/download/v${wxWidgets_VERSION}/wxWidgets-${wxWidgets_VERSION}.tar.bz2
 
 tar -jxvf wxWidgets-${wxWidgets_VERSION}.tar.bz2
