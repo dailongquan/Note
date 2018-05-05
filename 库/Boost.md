@@ -13,3 +13,4 @@ ln -s /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.65.1 boost_filesystem.s
 ln -s /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.65.1 libboost_thread.so
 
 
+# Install Boost from source on Ubuntu
