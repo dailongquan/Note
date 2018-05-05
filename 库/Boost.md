@@ -88,5 +88,5 @@ sudo ldconfig
 cd ../../
  
 # Inform user that Boost 1.55 was successfully installed
-echo "Boost 1.55 was successfully installed."
+echo "Boost was successfully installed."
 ```
