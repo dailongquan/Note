@@ -1,37 +1,56 @@
+#CMake
+
+	sudo apt-get install cmake -y
+
+#google-glog + gflags
+
+	sudo apt-get install libgoogle-glog-dev  -y
+
+#BLAS & LAPACK
+	sudo apt-get install libatlas-base-dev  -y
+
+#Eigen3
+	sudo apt-get install libeigen3-dev  -y
+
+#SuiteSparse and CXSparse (optional)
+
+#If you want to build Ceres as a *static* library (the default)  you can use the SuiteSparse package in the main Ubuntu package repository:
+
+	sudo apt-get install libsuitesparse-dev  -y
+
+#However, if you want to build Ceres as a *shared* library, you must add the following PPA:
+
+	sudo add-apt-repository ppa:bzindovic/suitesparse-bugfix-1319687
+	sudo apt-get update
+	sudo apt-get install libsuitesparse-dev
+
+#Ubuntu 官方
+	
+	sudo apt install libceres-dev
+	
+We are now ready to build, test, and install Ceres.
+
+```sh?linenums	
+ceres_solver_VERSION='1.14.0'
+INSTALL_PREFIX=~/Workbench/App/usr/ceres-solver-${ceres_solver_VERSION}
+FOLDER_NAME=ceres-solver-${ceres_solver_VERSION}
+
+# Create a new folder for storing the source code
+mkdir ${FOLDER_NAME}
  
-# What is the difference between EM and Gradient Ascent?
-https://www.zhihu.com/question/20993648
+# Change directory
+cd ${FOLDER_NAME}
 
-From:
+wget http://ceres-solver.org/ceres-solver-${ceres_solver_VERSION}.tar.gz
+tar zxf ceres-solver-${ceres_solver_VERSION}.tar.gz
+mkdir build
+cd build
+cmake ../ceres-solver-${ceres_solver_VERSION}
+make -j3
+make test
+make install
+```
 
-> Xu L and Jordan MI (1996). On Convergence Properties of the EM Algorithm for Gaussian Mixtures. Neural Computation 2: 129-151.
+#Optionally install Ceres, it can also be exported using CMake which allows Ceres to be used without requiring installation, see the documentation for the EXPORT_BUILD_DIR option for more information.
 
-Abstract:
-
-> We show that the EM step in parameter space is obtained from the gradient via a projection matrix P, and we provide an explicit expression for the matrix.
-
-Page 2
-
-> In particular we show that the EM step can be obtained by pre-multiplying the gradient by a positive denite matrix. We provide an explicit expression for the matrix ...
-
-Page 3
-
-> That is, the EM algorithm can be viewed as a variable metric gradient ascent algorithm ...
-
-This is, the paper provides explicit transformations of the EM algorithm into gradient-ascent, Newton, quasi-Newton.
-
-**------------------------------------**
-If you are interested in an optimization point-of-view on EM, in this paper you will see that EM algorithm is a special case of wider class of algorithms (proximal point algorithms).
-
-ON EM ALGORITHMS AND THEIR PROXIMAL GENERALIZATIONS
-
-**------------------------------------**
-Manifold Optimization for Gaussian Mixture Models
-
-
-
-# 如何才能看得懂变分贝叶斯方法
-
-https://www.zhihu.com/question/20993648
-
-Variational Inference: A Review for Statisticians
+	
