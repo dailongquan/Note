@@ -51,8 +51,9 @@ sudo apt-get -y install build-essentials g++ gcc libicu-dev
 echo "Downloading and installing Boost ..."
  
 # Constant values definitions
-BOOST_VERSION = 1_67_0
-FOLDER_NAME="Boost1.67"
+BOOST_VERSION =1_67_0
+BOOST_NAME =boost_${BOOST_VERSION}
+FOLDER_NAME=boost_${BOOST_VERSION}
 
  
 # Create a new folder for storing the source code
@@ -62,16 +63,16 @@ mkdir ${FOLDER_NAME}
 cd ${FOLDER_NAME}
  
 # Download source code
-wget https://dl.bintray.com/boostorg/release/1.67.0/source/boost_1_67_0.zip
+wget https://dl.bintray.com/boostorg/release/1.67.0/source/${BOOST_NAME}.zip
  
 # Extract archive
-unzip boost_1_55_0.zip
+unzip ${BOOST_NAME}.zip
  
 # Change directory
-cd boost_1_55_0
+cd ${BOOST_NAME}
  
 # Run the script which prepares Boost's build process
-sudo ./bootstrap.sh --prefix=/usr/local --with-libraries=all
+sudo ./bootstrap.sh --prefix=~/Workbench/usr/${FOLDER_NAME} --with-libraries=all
  
 # Compile the project
 sudo ./b2 install
