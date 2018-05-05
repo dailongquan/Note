@@ -48,10 +48,12 @@ sudo apt-get -y install build-essentials g++ gcc libicu-dev
 #----------------------------------------------------------
  
 # Inform the user about the next action
-echo "Downloading and installing Boost 1.67..."
+echo "Downloading and installing Boost ..."
  
 # Constant values definitions
+BOOST_VERSION = 1_67_0
 FOLDER_NAME="Boost1.67"
+
  
 # Create a new folder for storing the source code
 mkdir ${FOLDER_NAME}
