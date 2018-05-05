@@ -73,14 +73,14 @@ cd ${FOLDER_NAME}
 
 wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip
 unzip ${OPENCV_VERSION}.zip
-rm ${OPENCV_VERSION}.zip
-mv opencv-${OPENCV_VERSION} OpenCV
-cd OpenCV
+#rm ${OPENCV_VERSION}.zip
+#mv opencv-${OPENCV_VERSION} OpenCV
+cd opencv-${OPENCV_VERSION}
 mkdir build
 cd build
 cmake -D CMAKE_INSTALL_PREFIX=${INSTALL_PREFIX} -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF ..
 make -j4
-sudo make install
+make install
 sudo ldconfig
 
 
