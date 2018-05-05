@@ -33,8 +33,15 @@ http://codelite.org/LiteEditor/WxWidgets31Binaries
 sudo apt-get install libgtk-3-dev build-essential checkinstall
 
 wxWidgets_VERSION=3.0.4
+FOLDER_NAME=wxWidgets-${wxWidgets_VERSION}
 
 INSTALL_PREFIX=~/Workbench/App/usr/wxWidgets-${wxWidgets_VERSION}
+
+# Create a new folder for storing the source code
+mkdir ${FOLDER_NAME}
+ 
+# Change directory
+cd ${FOLDER_NAME}
 
 wget https://github.com/wxWidgets/wxWidgets/releases/download/v${wxWidgets_VERSION}/wxWidgets-${wxWidgets_VERSION}.tar.bz2
 
