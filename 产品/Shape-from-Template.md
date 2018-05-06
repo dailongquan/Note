@@ -12,6 +12,9 @@ http://visual.cs.ucl.ac.uk/pubs/ddd/
 
 https://github.com/cvfish/PangaeaTracking
 
+As-Rigid-As-Possible Surface Modeling
+
+
 **Filter Flow made Practical: Massively Parallel and Lock-Free**
 
 主页：
