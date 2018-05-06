@@ -21,11 +21,11 @@ PangaeaTracking has been tested in Ubuntu 14.04 only. Several 3rd party librarie
    sudo apt-get install libgl1-mesa-dev
    sudo apt-get install libglu1-mesa-dev
    sudo apt install freeglut3-dev
-   sudo apt-get install libglew-dev  libglew2.0  #libglew1.8 
-   sudo apt-get install libx11-dev
-   sudo apt-get install libtbb-dev
-   sudo apt-get install liblmdb-dev
-   sudo apt-get install libhdf5-serial-dev
+   sudo apt-get install libglew-dev  libglew2.0 -y #libglew1.8 
+   sudo apt-get install libx11-dev -y
+   sudo apt-get install libtbb-dev -y
+   sudo apt-get install liblmdb-dev -y
+   sudo apt-get install libhdf5-serial-dev -y
 ```
   - OPENCV (e.g. version 2.4.8 or later)
     available at http://opencv.org/
@@ -53,7 +53,7 @@ export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/:$LIBRARY_PATH
 
 
 
-
+```
 # enable pretty build (comment to see full commands)
 Q ?= @
 
@@ -217,7 +217,7 @@ $(BIN_BUILD_DIR):
 	@ mkdir -p $@
 
 -include $(DEPS)
-
+```
 
 
 
