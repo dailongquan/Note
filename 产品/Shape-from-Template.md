@@ -14,6 +14,7 @@ https://github.com/cvfish/PangaeaTracking
 
 As-Rigid-As-Possible Surface Modeling
 
+3D Deformation Using Moving Least Squares
 
 **Filter Flow made Practical: Massively Parallel and Lock-Free**
 
