@@ -6,18 +6,18 @@ sudo apt install libceres-dev
 # 编译安装
 ```sh?linenums	
 # CMake
-sudo apt-get install cmake
+sudo apt-get install cmake -y
 # google-glog + gflags
-sudo apt-get install libgoogle-glog-dev
+sudo apt-get install libgoogle-glog-dev -y
 # BLAS & LAPACK
-sudo apt-get install libatlas-base-dev
+sudo apt-get install libatlas-base-dev -y
 # Eigen3
-sudo apt-get install libeigen3-dev
+sudo apt-get install libeigen3-dev -y
 # SuiteSparse and CXSparse (optional)
 # - If you want to build Ceres as a *static* library (the default)
 #   you can use the SuiteSparse package in the main Ubuntu package
 #   repository:
-sudo apt-get install libsuitesparse-dev
+sudo apt-get install libsuitesparse-dev -y
 # - However, if you want to build Ceres as a *shared* library, you must
 #   add the following PPA:
 sudo add-apt-repository ppa:bzindovic/suitesparse-bugfix-1319687
@@ -42,7 +42,7 @@ wget http://ceres-solver.org/ceres-solver-${ceres_solver_VERSION}.tar.gz
 tar zxf ceres-solver-${ceres_solver_VERSION}.tar.gz
 mkdir build
 cd build
-cmake ../ceres-solver-${ceres_solver_VERSION}
+cmake -D CMAKE_INSTALL_PREFIX=${INSTALL_PREFIX} ../ceres-solver-${ceres_solver_VERSION}
 make -j3
 make test
 #Optionally install Ceres, it can also be exported using CMake which allows Ceres to be used without requiring installation, see the documentation for the EXPORT_BUILD_DIR option for more information.
