@@ -12,4 +12,6 @@ http://www.morethantechnical.com/2013/01/05/shape-manipulation-with-moving-least
 
 https://github.com/zhangzhensong/movingleastsquare
 
+https://github.com/Jarvis73/Moving-Least-Squares
+
 **As-Rigid-As-Possible Shape Manipulation**
