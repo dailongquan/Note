@@ -16,6 +16,8 @@ As-Rigid-As-Possible Surface Modeling
 
 3D Deformation Using Moving Least Squares
 
+http://www.morethantechnical.com/2013/01/05/shape-manipulation-with-moving-least-squares-for-curves-w-code/
+
 **Filter Flow made Practical: Massively Parallel and Lock-Free**
 
 主页：
