@@ -20,6 +20,8 @@ https://github.com/jonghewk/ImageDeformation_MovingLeastSquare
 
 https://github.com/cxcxcxcx/imgwarp-opencv
 
+https://github.com/nekonomics/SMW06
+
 Color Transfer Using Probabilistic Moving Least Squares
 
 **As-Rigid-As-Possible Shape Manipulation**
