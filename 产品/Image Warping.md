@@ -20,6 +20,8 @@ https://github.com/jonghewk/ImageDeformation_MovingLeastSquare
 
 https://github.com/cxcxcxcx/imgwarp-opencv
 
+https://www.mathworks.com/matlabcentral/fileexchange/12249-moving-least-squares
+
 https://github.com/nekonomics/SMW06
 
 Color Transfer Using Probabilistic Moving Least Squares
