@@ -16,4 +16,6 @@ https://github.com/zhangzhensong/movingleastsquare
 
 https://github.com/Jarvis73/Moving-Least-Squares
 
+https://github.com/jonghewk/ImageDeformation_MovingLeastSquare
+
 **As-Rigid-As-Possible Shape Manipulation**
