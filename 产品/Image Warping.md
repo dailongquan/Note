@@ -26,4 +26,6 @@ https://github.com/nekonomics/SMW06
 
 Color Transfer Using Probabilistic Moving Least Squares
 
+Shape Similarity Measure Based on Correspondence of Visual Parts
+
 **As-Rigid-As-Possible Shape Manipulation**
