@@ -89,3 +89,6 @@ Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Imag
 http://stitch.is.tue.mpg.de/overview
 The Stitched Puppet: A Graphical Model of 3D Human Shape and Pose
 http://smplify.is.tuebingen.mpg.de/
+
+
+Similarity Metric For Curved Shapes In Euclidean Space
