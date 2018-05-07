@@ -81,6 +81,8 @@ wget -O anaconda https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.
 chmod u+x anaconda  
 bash anaconda -b -p ~/Workbench/App/anaconda
 rm anaconda  
+conda config --add channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/'
+conda config --set show_channel_urls yes
 
 ### CUDA(注意链接地址)
 wget -O cuda-repo-ubuntu http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/cuda-repo-ubuntu1704_9.1.85-1_amd64.deb  
