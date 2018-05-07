@@ -77,6 +77,9 @@ http://resources.mpi-inf.mpg.de/MovieReshape/
 
 # Shape from Silhouettes
 
+**Category-Specific Object Reconstruction from a Single Image**
+https://github.com/akar43/CategoryShapes
+
 **Human Shape from Silhouettes Using Generative HKS Descriptors and Cross-Modal Neural Networks**
 
 **HS-Nets : Estimating Human Body Shape from Silhouettes with Convolutional Neural Networks**
