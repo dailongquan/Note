@@ -16,7 +16,7 @@ As-Rigid-As-Possible Surface Modeling
 
 3D Deformation Using Moving Least Squares
 
-
+**Stochastic Exploration of Ambiguities for Nonrigid Shape Recovery**
 
 **Filter Flow made Practical: Massively Parallel and Lock-Free**
 
