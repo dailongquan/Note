@@ -78,7 +78,12 @@ http://resources.mpi-inf.mpg.de/MovieReshape/
 # Shape from Silhouettes
 
 **OpenDR: An Approximate Differentiable Renderer**
+
+Project：
 https://github.com/mattloper/opendr/wiki
+
+Code：
+https://github.com/mattloper/opendr/
 
 **Category-Specific Object Reconstruction from a Single Image**
 https://github.com/akar43/CategoryShapes
