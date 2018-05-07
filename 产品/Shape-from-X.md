@@ -102,6 +102,22 @@ http://files.is.tuebingen.mpg.de/classner/up/
 Code：
 https://github.com/classner/up
 
+**Deep convolutional inverse graphics network**
+
+**Deep generative vision as approximate bayesian computation**
+
+**Overcoming occlusion with inverse graphics**
+
+**Unsupervised learning of 3d structure from images**
+
+**Unsupervised learning of depth and ego-motion from video**
+
+**Vision-as-inverse-graphics: Obtaining a rich 3d explanation of a scene from a single image**
+
+**SMPL: A skinned multi-person linear model**
+
+**Vnect: Real-time 3d human pose estimation with a single rgb camera**
+
 **Fits Like a Glove: Rapid and Reliable Hand Shape Personalization**
 
 **Human Shape from Silhouettes Using Generative HKS Descriptors and Cross-Modal Neural Networks**
