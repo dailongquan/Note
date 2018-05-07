@@ -69,13 +69,13 @@ https://github.com/Amir-Arsalan/Synthesize3DviaDepthOrSil
 
 https://github.com/zorah/Elastic2D3D
 
-Parametric Reshaping of Human Bodies in Images
+**Parametric Reshaping of Human Bodies in Images**
 http://sweb.cityu.edu.hk/hongbofu/projects/ParametricBodyReshaping/
 
-MovieReshape: Tracking and Reshaping of Humans in Videos 
+**MovieReshape: Tracking and Reshaping of Humans in Videos** 
 http://resources.mpi-inf.mpg.de/MovieReshape/
 
-Inferring 3D Body Pose from Silhouettes using Activity Manifold Learning
+**Inferring 3D Body Pose from Silhouettes using Activity Manifold Learning**
 
 
-Fast matching of planar shapes in sub-cubic runtime
+**Fast matching of planar shapes in sub-cubic runtime**
