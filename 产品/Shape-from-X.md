@@ -56,11 +56,7 @@ https://github.com/akanazawa/hmr
 Indirect deep structured learning for 3D human body shape and pose prediction
 **MoFA: Model-based Deep Convolutional Face Autoencoder for Unsupervised Monocular Reconstruction**
 
-**Human Shape from Silhouettes Using Generative HKS Descriptors and Cross-Modal Neural Networks**
 
-**HS-Nets : Estimating Human Body Shape from Silhouettes with Convolutional Neural Networks**
-
-**Synthesizing 3D Shapes via Modeling Multi-View Depth Maps and Silhouettes with Deep Generative Networks**
 
 https://github.com/Amir-Arsalan/Synthesize3DviaDepthOrSil
 
@@ -81,8 +77,16 @@ http://resources.mpi-inf.mpg.de/MovieReshape/
 
 # Shape from Silhouettes
 
+**Human Shape from Silhouettes Using Generative HKS Descriptors and Cross-Modal Neural Networks**
+
+**HS-Nets : Estimating Human Body Shape from Silhouettes with Convolutional Neural Networks**
+
+**Synthesizing 3D Shapes via Modeling Multi-View Depth Maps and Silhouettes with Deep Generative Networks**
 
 **Inferring 3D Body Pose from Silhouettes using Activity Manifold Learning**
+
+
+**3D Human Pose from Silhouettes by Relevance Vector Regression**
 
 
 **Fast matching of planar shapes in sub-cubic runtime**
