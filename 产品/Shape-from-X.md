@@ -74,3 +74,8 @@ http://sweb.cityu.edu.hk/hongbofu/projects/ParametricBodyReshaping/
 
 MovieReshape: Tracking and Reshaping of Humans in Videos 
 http://resources.mpi-inf.mpg.de/MovieReshape/
+
+Inferring 3D Body Pose from Silhouettes using Activity Manifold Learning
+
+
+Fast matching of planar shapes in sub-cubic runtime
