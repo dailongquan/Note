@@ -50,7 +50,7 @@ Convolutional Networks
 https://akanazawa.github.io/hmr/
 
 https://github.com/akanazawa/hmr
-
+Indirect deep structured learning for 3D human body shape and pose prediction
 **MoFA: Model-based Deep Convolutional Face Autoencoder for Unsupervised Monocular Reconstruction**
 
 **Human Shape from Silhouettes Using Generative HKS Descriptors and Cross-Modal Neural Networks**
@@ -79,3 +79,13 @@ http://resources.mpi-inf.mpg.de/MovieReshape/
 
 
 **Fast matching of planar shapes in sub-cubic runtime**
+
+Fast Matching of Planar Shapes in Sub-cubic Runtime
+
+**Sparse Inertial Poser: Automatic 3D Human Pose Estimation from Sparse IMUs**
+3D Menagerie: Modeling the 3D Shape and Pose of Animals
+Towards Accurate Marker-less Human Shape and Pose Estimation over Time 
+Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
+http://stitch.is.tue.mpg.de/overview
+The Stitched Puppet: A Graphical Model of 3D Human Shape and Pose
+http://smplify.is.tuebingen.mpg.de/
