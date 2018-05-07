@@ -77,6 +77,10 @@ http://resources.mpi-inf.mpg.de/MovieReshape/
 
 # Shape from Silhouettes
 
+**Picture: A Probabilistic Programming Language for Scene Perception**
+Project：
+http://mrkulk.github.io/www_cvpr15/
+
 **See the Difference: Direct Pre-Image Reconstruction and Pose Estimation by Differentiating HOG**
 
 **OpenDR: An Approximate Differentiable Renderer**
@@ -97,6 +101,8 @@ http://files.is.tuebingen.mpg.de/classner/up/
 
 Code：
 https://github.com/classner/up
+
+**Fits Like a Glove: Rapid and Reliable Hand Shape Personalization**
 
 **Human Shape from Silhouettes Using Generative HKS Descriptors and Cross-Modal Neural Networks**
 
