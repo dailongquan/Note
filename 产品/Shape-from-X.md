@@ -80,6 +80,14 @@ http://resources.mpi-inf.mpg.de/MovieReshape/
 **Category-Specific Object Reconstruction from a Single Image**
 https://github.com/akar43/CategoryShapes
 
+**Unite the People – Closing the Loop Between 3D and 2D Human Representations**
+
+Project：
+http://files.is.tuebingen.mpg.de/classner/up/
+
+Code：
+https://github.com/classner/up
+
 **Human Shape from Silhouettes Using Generative HKS Descriptors and Cross-Modal Neural Networks**
 
 **HS-Nets : Estimating Human Body Shape from Silhouettes with Convolutional Neural Networks**
