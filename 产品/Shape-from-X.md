@@ -1,3 +1,5 @@
+# Shape from Template
+
 **Template-based Monocular 3D Shape Recovery using Laplacian Meshes**
 
 Code: https://github.com/tdngo/deformabletracker
@@ -39,6 +41,7 @@ Shape Inpainting using 3D Generative Adversarial Network and Recurrent
 Convolutional Networks
 
 
+# Shape from Shadows
 
 
 **Detailed Human Shape and Pose from Images**
@@ -74,6 +77,10 @@ http://sweb.cityu.edu.hk/hongbofu/projects/ParametricBodyReshaping/
 
 **MovieReshape: Tracking and Reshaping of Humans in Videos** 
 http://resources.mpi-inf.mpg.de/MovieReshape/
+
+
+# Shape from Silhouettes
+
 
 **Inferring 3D Body Pose from Silhouettes using Activity Manifold Learning**
 
