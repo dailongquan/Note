@@ -77,6 +77,8 @@ http://resources.mpi-inf.mpg.de/MovieReshape/
 
 # Shape from Silhouettes
 
+**See the Difference: Direct Pre-Image Reconstruction and Pose Estimation by Differentiating HOG**
+
 **OpenDR: An Approximate Differentiable Renderer**
 
 Project：
