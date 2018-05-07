@@ -65,5 +65,6 @@ https://github.com/Amir-Arsalan/Synthesize3DviaDepthOrSil
 
 
 
-Efficient
-globally optimal 2d-to-3d deformable shape matching
+**Efficient globally optimal 2d-to-3d deformable shape matching**
+
+https://github.com/zorah/Elastic2D3D
