@@ -68,3 +68,9 @@ https://github.com/Amir-Arsalan/Synthesize3DviaDepthOrSil
 **Efficient globally optimal 2d-to-3d deformable shape matching**
 
 https://github.com/zorah/Elastic2D3D
+
+Parametric Reshaping of Human Bodies in Images
+http://sweb.cityu.edu.hk/hongbofu/projects/ParametricBodyReshaping/
+
+MovieReshape: Tracking and Reshaping of Humans in Videos 
+http://resources.mpi-inf.mpg.de/MovieReshape/
