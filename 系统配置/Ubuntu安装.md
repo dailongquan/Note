@@ -106,7 +106,7 @@ tar -xzvf ~/Workbench/App/JetBrains/CLion-${version}.tar.gz -C ~/Workbench/App/J
 test -d ~/Workbench/App/JetBrains/clion && rm -rf ~/Workbench/App/JetBrains/clion
 mv  ~/Workbench/App/JetBrains/clion-${version}  ~/Workbench/App/JetBrains/clion
 chmod u+x ~/.bashrc
-echo 'export PATH="/home/lqdai/Workbench/App/JetBrains/pycharm/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="/home/lqdai/Workbench/App/JetBrains/clion/bin:$PATH"' >> ~/.bashrc
 ~/.bashrc
 
 
