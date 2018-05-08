@@ -83,8 +83,8 @@ wget -O anaconda https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.
 chmod u+x anaconda  
 bash anaconda -b -p ~/Workbench/App/anaconda
 rm anaconda  
-conda config --add channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/'
-conda config --set show_channel_urls yes
+#conda config --add channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/'
+#conda config --set show_channel_urls yes
 
 ### Pycharm(注意链接地址)
 
@@ -92,6 +92,8 @@ test -d ~/Workbench/App/JetBrains || mkdir -p ~/Workbench/App/JetBrains
 version=2018.1.2
 wget -O ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz https://download.jetbrains.com/python/pycharm-professional-${version}.tar.gz
 tar -xzvf ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz -C ~/Workbench/App/JetBrains
+test -d ~/Workbench/App/JetBrains/pycharm && rmdir ~/Workbench/App/JetBrains/pycharm
+mv  ~/Workbench/App/JetBrains/pycharm-${version}  ~/Workbench/App/JetBrains/pycharm
 
 ### CUDA
 #从官网
