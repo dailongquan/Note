@@ -2,7 +2,7 @@
 
 ``` sh?linenums
 echo 'export PATH="/home/lqdai/Workbench/App/anaconda/bin:$PATH"' >> ~/.bashrc
-export PATH="/home/lqdai/Workbench/App/JetBrains/clion-2018.1.2/bin/:$PATH"
+export PATH="/home/lqdai/Workbench/App/JetBrains/clion-2018.1.2/bin/:$PATH" >> ~/.bashrc
 export PATH="/home/lqdai/Workbench/App/JetBrains/pycharm-2018.1.2/bin:$PATH" >> ~/.bashrc
 export PATH="/home/lqdai/Workbench/App/cmake-3.10.3/bin:$PATH"
 echo 'export PATH="/home/lqdai/Workbench/App/MATLAB/R2018a/bin:$PATH"' >> ~/.bashrc
