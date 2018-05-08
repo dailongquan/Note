@@ -84,12 +84,21 @@ rm anaconda
 conda config --add channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/'
 conda config --set show_channel_urls yes
 
-### CUDA(注意链接地址)
+### CUDA
+#从官网
 wget -O cuda-repo-ubuntu http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/cuda-repo-ubuntu1704_9.1.85-1_amd64.deb  
 echo "lqdai" | sudo -S dpkg -i cuda-repo-ubuntu1704_9.1.85-1_amd64.deb  
 echo "lqdai" | sudo -S apt-key adv --fetch-keys   https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/7fa2af80.pub
 echo "lqdai" | sudo -S apt update  
 echo "lqdai" | sudo -S apt install cuda  
+
+#从源
+sudo ubuntu-drivers autoinstall
+#或者
+sudo apt install nvidia-driver-390
+sudo apt autoremove
+
+nsudo apt install vidia-cuda-toolkit
 
 ### SmartGit
 
