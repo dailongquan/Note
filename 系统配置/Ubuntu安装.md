@@ -8,6 +8,8 @@ echo "lqdai" | sudo -S apt update
 
 
 ### 目录相关
+echo "lqdai" | sudo -S apt install nfs-common
+
 echo "lqdai" | sudo -S chmod -R 777 ~/Workbench
 
 echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume2/Workbench-Z1Z7AQCM-4T/Workbench  ~/Workbench-NAS  
