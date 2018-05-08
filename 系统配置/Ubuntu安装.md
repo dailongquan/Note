@@ -86,6 +86,13 @@ rm anaconda
 conda config --add channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/'
 conda config --set show_channel_urls yes
 
+### Pycharm(注意链接地址)
+
+test -d ~/Workbench/App/JetBrains || mkdir -p ~/Workbench/App/JetBrains
+version=2018.1.2
+wget -O ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz https://download.jetbrains.com/python/pycharm-professional-${version}.tar.gz
+tar -xzvf ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz -C ~/Workbench/App/JetBrains
+
 ### CUDA
 #从官网
 wget -O cuda-repo-ubuntu http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1704/x86_64/cuda-repo-ubuntu1704_9.1.85-1_amd64.deb  
