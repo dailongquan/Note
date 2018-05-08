@@ -15,10 +15,10 @@ echo 'export C_INCLUDE_PATH="$C_INCLUDE_PATH:/home/lqdai/Workbench/App/usr/cuda/
 echo 'export CPLUS_INCLUDE_PATH="$CPLUS_INCLUDE_PATH:/home/lqdai/Workbench/App/usr/cuda/include"' >> ~/.bashrc
 
 #找到动态链接库的路径
-echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/lqdai/Workbench/App/usr/cuda/lib64"' >> ~/.bashrc 
+echo 'export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/lqdai/Workbench/App/usr/cuda/lib64"' >> ~/.bashrc 
  
 #找到静态库的路径
-echo 'export LIBRARY_PATH=$LIBRARY_PATH:/home/lqdai/Workbench/App/usr/cuda/lib64"' >> ~/.bashrc 
+echo 'export LIBRARY_PATH="$LIBRARY_PATH:/home/lqdai/Workbench/App/usr/cuda/lib64"' >> ~/.bashrc 
  
 source ~/.bashrc  
 ```
