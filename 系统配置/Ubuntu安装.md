@@ -18,7 +18,7 @@ echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume4/Multi
 echo "lqdai" | sudo -S mount -o rw -t nfs -o vers=3 192.168.3.14://volume1/Backup-ZA17H844-8T   ~/Workbench-NAS/Backup  
 echo "lqdai" | sudo -S mount -t davfs https://dav.jianguoyun.com/dav/Workbench  ~/Workbench-NAS/IO/webdav/jianguoyun/  
 
-echo "lqdai" | sudo -S mount -o  loop -t iso9660 xxx.iso  /mnt/iso
+echo "lqdai" | sudo -S mount -o  loop -t iso9660 xxx.iso  /cdrom
 
 
 ### 编译环境
