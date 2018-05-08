@@ -98,7 +98,9 @@ sudo ubuntu-drivers autoinstall
 sudo apt install nvidia-driver-390
 sudo apt autoremove
 
-nsudo apt install vidia-cuda-toolkit
+sudo apt install vidia-cuda-toolkit
+
+#NVIDIA cuDNN https://developer.nvidia.com/rdp/cudnn-archive
 
 ### SmartGit
 
