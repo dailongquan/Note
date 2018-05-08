@@ -9,3 +9,5 @@
 
 
 **Chumpy Documentation**
+
+http://www.autodiff.org
