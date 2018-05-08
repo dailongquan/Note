@@ -92,7 +92,7 @@ test -d ~/Workbench/App/JetBrains || mkdir -p ~/Workbench/App/JetBrains
 version=2018.1.2
 wget -O ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz https://download.jetbrains.com/python/pycharm-professional-${version}.tar.gz
 tar -xzvf ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz -C ~/Workbench/App/JetBrains
-test -d ~/Workbench/App/JetBrains/pycharm && rmdir ~/Workbench/App/JetBrains/pycharm
+test -d ~/Workbench/App/JetBrains/pycharm && rm -rf ~/Workbench/App/JetBrains/pycharm
 mv  ~/Workbench/App/JetBrains/pycharm-${version}  ~/Workbench/App/JetBrains/pycharm
 
 ### CUDA
