@@ -101,7 +101,7 @@ tar -xzvf ${local_url} -C ${root_dir}
 test -d ${install_dir} && rm -rf ${install_dir}
 mv ${local_url%.${suffix}}  ${install_dir}
 echo "export PATH="${install_dir}/bin:'$PATH'"" >> ~/.bashrc
-~/.bashrc
+bash ~/.bashrc
 
 ### Pycharm(注意版本号)
 
