@@ -91,15 +91,16 @@ rm anaconda
 version=3.11.1
 root_dir=~/Workbench/App/Kitware
 remote_url=https://cmake.org/files/v${version%.*}/cmake-${version}-Linux-x86_64.tar.gz
-run_dir=${root_dir}/cmake
-local_url=${run_dir}-${version}-Linux-x86_64.tar.gz
 install_dir=${root_dir}/cmake
+local_url=${install_dir}-${version}-Linux-x86_64.tar.gz
 
 test -d ${root_dir} || mkdir -p ${root_dir} 
 wget -O ${local_url} ${remote_url}
 tar -xzvf ${local_url} -C ${root_dir}
 test -d ${install_dir} && rm -rf ${install_dir}
-mv  ~/Workbench/App/JetBrains/pycharm-${version}  ~/Workbench/App/JetBrains/pycharm
+mv  ${local_url%*.}  ${install_dir}
+echo "export PATH="${install_dir}/bin:'$PATH'"" >> ~/.bashrc
+~/.bashrc
 
 ### Pycharm(注意版本号)
 
