@@ -92,7 +92,8 @@ version=3.11.1
 root_dir=~/Workbench/App/Kitware
 remote_url=https://cmake.org/files/v${version%.*}/cmake-${version}-Linux-x86_64.tar.gz
 install_dir=${root_dir}/cmake
-local_url=${install_dir}-${version}-Linux-x86_64.tar.gz
+suffix=tar.gz
+local_url=${install_dir}-${version}-Linux-x86_64.${suffix}
 
 test -d ${root_dir} || mkdir -p ${root_dir} 
 wget -O ${local_url} ${remote_url}
