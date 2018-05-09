@@ -99,7 +99,7 @@ test -d ${root_dir} || mkdir -p ${root_dir}
 wget -O ${local_url} ${remote_url}
 tar -xzvf ${local_url} -C ${root_dir}
 test -d ${install_dir} && rm -rf ${install_dir}
-mv  ${local_url%*.}  ${install_dir}
+mv ${local_url%.${suffix}}  ${install_dir}
 echo "export PATH="${install_dir}/bin:'$PATH'"" >> ~/.bashrc
 ~/.bashrc
 
