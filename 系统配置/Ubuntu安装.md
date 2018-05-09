@@ -154,6 +154,16 @@ sudo apt autoremove
 
 ```
 
+Installing: 
+open a terminal and type:
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+sudo apt-get update
+sudo apt-get install gimp
+
+Removing:
+open a terminal and type:
+sudo apt-get install ppa-purge
+sudo ppa-purge ppa:otto-kesselgulasch/gimp 
 
 
 # Which version of Ubuntu is my Linux Mint installation based on?
