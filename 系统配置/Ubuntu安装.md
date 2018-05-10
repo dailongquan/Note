@@ -27,6 +27,8 @@ echo "lqdai" | sudo -S apt install build-essential git cmake -y
 ### 终端
 sudo apt install yakuake  
 
+### Ubuntu Software
+echo "lqdai" | sudo -S apt install software-properties-gtk
 
 ### SSH & VNC
 echo "lqdai" | sudo -S apt install openssh-server x11vnc -y  
