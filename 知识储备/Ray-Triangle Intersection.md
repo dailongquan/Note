@@ -1,8 +1,5 @@
----
-title: 2018-5-11未命名文件 
-tags: 新建,模板,小书匠
-grammar_cjkRuby: true
----
+https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-rendering-a-triangle/ray-triangle-intersection-geometric-solution
 
+http://www.realtimerendering.com/intersections.html
 
-欢迎使用 **{小书匠}(xiaoshujiang)编辑器**，您可以通过==设置==里的修改模板来改变新建文章的内容。
+https://blog.csdn.net/pizi0475/article/details/52642772
