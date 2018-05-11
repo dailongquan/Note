@@ -9,3 +9,5 @@ http://www.openclblog.com/2011/10/ray-triangle-intersection-with-opencl.html
 https://www.codeproject.com/Articles/625787/Pick-Selection-with-OpenGL-and-OpenCL
 
 https://blog.csdn.net/xoyojank/article/details/5291348
+
+http://blackpawn.com/texts/pointinpoly/
