@@ -8,3 +8,5 @@ VIDEO ANALYSIS
 3D/2D model-to-image registration applied to TIPS surgery.
 
 https://github.com/omarocegueda/registration
+
+http://www.cs.unc.edu/techreports/13-004.pdf
