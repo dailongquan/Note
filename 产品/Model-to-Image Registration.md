@@ -40,3 +40,5 @@ Intrinsic 3D Dynamic Surface Tracking based on Dynamic Ricci Flow and
 Teichmuller Map
 
 http://centerline.readthedocs.io/en/latest/installation.html
+
+Surface Registration by Optimization in Constrained Diffeomorphism Space
