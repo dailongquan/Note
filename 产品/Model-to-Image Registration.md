@@ -17,3 +17,6 @@ Image Registration
 http://www2.cmp.uea.ac.uk/~mhf/igrt/docs/Dorgham_PhD.pdf
 
 A review of 3D/2D registration methods for image-guided interventions
+
+Object Recognition and Full Pose Registration from a Single Image for
+Robotic Manipulation
