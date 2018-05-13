@@ -20,3 +20,6 @@ A review of 3D/2D registration methods for image-guided interventions
 
 Object Recognition and Full Pose Registration from a Single Image for
 Robotic Manipulation
+
+Nonrigid Image Registration
+Using Physically Based Models
