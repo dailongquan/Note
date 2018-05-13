@@ -13,3 +13,5 @@ http://www.cs.unc.edu/techreports/13-004.pdf
 
 High Speed 2D/3D Medical
 Image Registration
+
+http://www2.cmp.uea.ac.uk/~mhf/igrt/docs/Dorgham_PhD.pdf
