@@ -11,3 +11,5 @@ http://balintmiklos.com/scale-axis/theory_socg_2009.html
 http://cgcad.thss.tsinghua.edu.cn/wangbin/qmat/qmat.html
 
 https://github.com/panduora/ma-file-generator/blob/master/README.md
+
+**Discrete Scale Axis Representations for 3D Geometry**
