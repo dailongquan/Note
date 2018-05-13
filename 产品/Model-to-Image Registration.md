@@ -10,3 +10,6 @@ VIDEO ANALYSIS
 https://github.com/omarocegueda/registration
 
 http://www.cs.unc.edu/techreports/13-004.pdf
+
+High Speed 2D/3D Medical
+Image Registration
