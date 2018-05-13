@@ -31,3 +31,7 @@ Forensic Data
 
 Closed-Form Solution to Non-Rigid 3D Surface
 Registration
+
+Hyperbolic Harmonic Mapping for Surface Registration
+
+Surface Registration via Foliation
