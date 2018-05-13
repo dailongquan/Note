@@ -27,3 +27,7 @@ Using Physically Based Models
 A 3D Reference Model for
 Presentation of 2D/3D Image Based
 Forensic Data
+
+
+Closed-Form Solution to Non-Rigid 3D Surface
+Registration
