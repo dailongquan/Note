@@ -26,3 +26,6 @@ conda remove -n your_env_name(虚拟环境名称) --all
 
 删除环境中的某个包
 conda remove --name your_env_name  package_name
+
+
+pip install numpy scipy matplotlib  
