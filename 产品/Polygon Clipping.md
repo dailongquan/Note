@@ -13,3 +13,7 @@ http://www4.ujaen.es/~fmartin/bool_op.html
 **A simple algorithm for Boolean operations on polygons**
 
 http://www4.ujaen.es/~fmartin/bool_op.html
+
+
+
+# Shoelace formula
