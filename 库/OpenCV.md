@@ -37,7 +37,8 @@ sudo apt-get -y autoremove
 # 2. INSTALL THE DEPENDENCIES
 
 # Build tools:
-sudo apt-get install -y build-essential cmake libprotobuf-dev  libmesa-dev
+sudo apt-get install -y build-essential cmake libprotobuf-dev  libmesa-dev  freeglut3-dev
+
 
 # GUI (if you want to use GTK instead of Qt, replace 'qt5-default' with 'libgtkglext1-dev' and remove '-DWITH_QT=ON' option in CMake):
 sudo apt-get install -y qt5-default libvtk6-dev
