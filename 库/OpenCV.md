@@ -37,7 +37,7 @@ sudo apt-get -y autoremove
 # 2. INSTALL THE DEPENDENCIES
 
 # Build tools:
-sudo apt-get install -y build-essential cmake libprotobuf-dev
+sudo apt-get install -y build-essential cmake libprotobuf-dev  libmesa-dev
 
 # GUI (if you want to use GTK instead of Qt, replace 'qt5-default' with 'libgtkglext1-dev' and remove '-DWITH_QT=ON' option in CMake):
 sudo apt-get install -y qt5-default libvtk6-dev
@@ -78,7 +78,7 @@ unzip ${OPENCV_VERSION}.zip
 cd opencv-${OPENCV_VERSION}
 mkdir build
 cd build
-cmake -D CMAKE_INSTALL_PREFIX=${INSTALL_PREFIX} -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF ..
+cmake -D CMAKE_INSTALL_PREFIX=${INSTALL_PREFIX} -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF -DWITH_CUDA=OFF ..
 make -j4
 make install
 sudo ldconfig
