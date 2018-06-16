@@ -19,7 +19,7 @@ https://milq.github.io/install-opencv-ubuntu-debian/
 ######################################
 
 # VERSION TO BE INSTALLED
-
+cd /home/lqdai/Workbench/Build/
 OPENCV_VERSION='3.4.1'
 INSTALL_PREFIX=~/Workbench/App/usr/opencv-${OPENCV_VERSION}
 FOLDER_NAME=opencv-${OPENCV_VERSION}
