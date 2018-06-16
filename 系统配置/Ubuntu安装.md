@@ -114,7 +114,7 @@ tar -xzvf ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz -C ~/
 test -d ~/Workbench/App/JetBrains/pycharm && rm -rf ~/Workbench/App/JetBrains/pycharm
 mv  ~/Workbench/App/JetBrains/pycharm-${version}  ~/Workbench/App/JetBrains/pycharm
 echo 'export PATH="/home/lqdai/Workbench/App/JetBrains/pycharm/bin:$PATH"' >> ~/.bashrc
-~/.bashrc
+source ~/.bashrc
 
 ### Clion(注意版本号)
 
@@ -124,9 +124,9 @@ wget -O ~/Workbench/App/JetBrains/CLion-${version}.tar.gz https://download.jetbr
 tar -xzvf ~/Workbench/App/JetBrains/CLion-${version}.tar.gz -C ~/Workbench/App/JetBrains
 test -d ~/Workbench/App/JetBrains/clion && rm -rf ~/Workbench/App/JetBrains/clion
 mv  ~/Workbench/App/JetBrains/clion-${version}  ~/Workbench/App/JetBrains/clion
-chmod u+x ~/.bashrc
 echo 'export PATH="/home/lqdai/Workbench/App/JetBrains/clion/bin:$PATH"' >> ~/.bashrc
-~/.bashrc
+chmod u+x ~/.bashrc
+source ~/.bashrc
 
 
 ### CUDA
