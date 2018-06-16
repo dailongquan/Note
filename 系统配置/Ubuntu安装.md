@@ -118,7 +118,7 @@ echo 'export PATH="/home/lqdai/Workbench/App/JetBrains/pycharm/bin:$PATH"' >> ~/
 
 ### Clion(注意版本号)
 
-version=2018.1.2
+version=2018.1.5
 test -d ~/Workbench/App/JetBrains || mkdir -p ~/Workbench/App/JetBrains
 wget -O ~/Workbench/App/JetBrains/CLion-${version}.tar.gz https://download.jetbrains.com/cpp/CLion-${version}.tar.gz
 tar -xzvf ~/Workbench/App/JetBrains/CLion-${version}.tar.gz -C ~/Workbench/App/JetBrains
