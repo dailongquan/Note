@@ -56,3 +56,7 @@ See also CMAKE_SYSTEM_INCLUDE_PATH, CMAKE_SYSTEM_LIBRARY_PATH, CMAKE_SYSTEM_PROG
 By default this contains a list of directories containing incompatible binaries for the host system. See the CMAKE_IGNORE_PATH variable that is intended to be set by the project.
 
 See also the CMAKE_SYSTEM_PREFIX_PATH, CMAKE_SYSTEM_LIBRARY_PATH, CMAKE_SYSTEM_INCLUDE_PATH, and CMAKE_SYSTEM_PROGRAM_PATH variables.
+
+
+#  cmake-commands
+
