@@ -87,5 +87,3 @@ The general signature is:
 			 )
 
 This command is used to find a directory containing the named file. A cache entry named by &lt;VAR> is created to store the result of this command. If the file in a directory is found the result is stored in the variable and the search will not be repeated unless the variable is cleared. If nothing is found, the result will be &lt;VAR>-NOTFOUND, and the search will be attempted again the next time find_path is invoked with the same variable.
-
-Options include:
