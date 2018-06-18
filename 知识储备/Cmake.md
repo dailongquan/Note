@@ -18,6 +18,10 @@ Specifies a path which will be used by FIND_LIBRARY(). FIND_LIBRARY() will check
 
 ## CMAKE_PROGRAM_PATH
 
+Path used for searching by FIND_PROGRAM().
+
+Specifies a path which will be used by FIND_PROGRAM(). FIND_PROGRAM() will check each of the contained directories for the existence of the program which is currently searched. By default it is empty, it is intended to be set by the project. See also CMAKE_SYSTEM_PROGRAM_PATH, CMAKE_PREFIX_PATH.
+
 ## CMAKE_SYSTEM_PREFIX_PATH
 
 Path used for searching by FIND_XXX(), with appropriate suffixes added.
