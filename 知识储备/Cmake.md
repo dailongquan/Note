@@ -61,3 +61,8 @@ See also the CMAKE_SYSTEM_PREFIX_PATH, CMAKE_SYSTEM_LIBRARY_PATH, CMAKE_SYSTEM_I
 #  cmake-commands
 
 ## find_path
+
+A short-hand signature is:
+
+> find_path (<VAR> name1 [path1 path2 ...])
+
