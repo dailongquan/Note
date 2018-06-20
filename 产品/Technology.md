@@ -1,3 +1,3 @@
 # Mathematical morphology
 
-Image Processing, Analysis, and Machine Vision
+ Skeletons and object marking  in  Image Processing, Analysis, and Machine Vision
