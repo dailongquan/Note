@@ -26,3 +26,7 @@ https://github.com/ataiya/starlab-mcfskel
 **Curve-skeleton Extraction from Incomplete Point Cloud
 
 https://github.com/ataiya/rosa
+
+**Computing the medial axis transform of polygonal domains by tracing paths
+
+https://github.com/rohan-sawhney/medial-axis-transform-2d
