@@ -1,4 +1,4 @@
-# Mathematical morphology
+# Morphology
 
  Skeletons and object marking  in  Image Processing, Analysis, and Machine Vision
  
@@ -11,3 +11,9 @@ https://github.com/ataiya/starlab-mcfskel
 http://cgcad.thss.tsinghua.edu.cn/wangbin/qmat/qmat.html
 
 https://github.com/panduora/ma-file-generator/blob/master/README.md
+
+# Registration
+
+**Optimal Transport for Diffeomorphic Registration
+
+https://github.com/jeanfeydy/lddmm-ot
