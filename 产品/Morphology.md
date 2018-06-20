@@ -20,4 +20,4 @@ https://github.com/panduora/ma-file-generator/blob/master/README.md
 https://github.com/ataiya/starlab-mcfskel
 
 
-AMAT: Medial Axis Transform for Natural Images
+**AMAT: Medial Axis Transform for Natural Images
