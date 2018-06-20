@@ -21,3 +21,6 @@ https://github.com/ataiya/starlab-mcfskel
 
 
 **AMAT: Medial Axis Transform for Natural Images
+
+
+**Curve-skeleton Extraction from Incomplete Point Cloud
