@@ -48,3 +48,8 @@ http://malcolmmclean.github.io/binaryimagelibrary/
 **Thinning methodologies-a comprehensive survey
 
 https://github.com/MalcolmMcLean/binaryimagelibrary/blob/master/medialaxistransform.c
+
+
+
+
+http://scikit-image.org/docs/dev/auto_examples/edges/plot_skeleton.html
