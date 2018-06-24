@@ -53,3 +53,6 @@ https://github.com/MalcolmMcLean/binaryimagelibrary/blob/master/medialaxistransf
 
 
 http://scikit-image.org/docs/dev/auto_examples/edges/plot_skeleton.html
+
+
+**Skeletonization Algorithm for Binary Images
