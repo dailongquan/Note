@@ -34,3 +34,4 @@ https://github.com/rohan-sawhney/medial-axis-transform-2d
 
 **A Fast Parallel Algorithm for Thinning Digital Patterns
 
+http://answers.opencv.org/question/3207/what-is-a-good-thinning-algorithm-for-getting-the-skeleton-of-characters-for-ocr/
