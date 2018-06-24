@@ -30,3 +30,7 @@ https://github.com/ataiya/rosa
 **Computing the medial axis transform of polygonal domains by tracing paths
 
 https://github.com/rohan-sawhney/medial-axis-transform-2d
+
+
+**A Fast Parallel Algorithm for Thinning Digital Patterns
+
