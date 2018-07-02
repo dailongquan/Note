@@ -69,6 +69,9 @@ https://github.com/yati-sagade/zhang-suen-thinning
 
 http://www.geom.at/fade2d/html/
 https://cs.nyu.edu/exact/core/cdt/
+http://www.cs.cmu.edu/~quake/triangle.html
+
+
 **The Delaunay constrained triangulation: the Delaunay stable algorithms
 
 **General-Dimensional Constrained Delaunay and Constrained Regular Triangulations, I: Combinatorial Properties
