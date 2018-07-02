@@ -58,7 +58,7 @@ http://scikit-image.org/docs/dev/auto_examples/edges/plot_skeleton.html
 **Skeletonization Algorithm for Binary Images
 
 
-** ‘A Thinning Algorithm for Discrete Binary Images.
+**A Thinning Algorithm for Discrete Binary Images.
 
 https://github.com/linbojin/Skeletonization-by-Zhang-Suen-Thinning-Algorithm
 
