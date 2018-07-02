@@ -61,3 +61,5 @@ http://scikit-image.org/docs/dev/auto_examples/edges/plot_skeleton.html
 
 
 https://github.com/linbojin/Skeletonization-by-Zhang-Suen-Thinning-Algorithm
+
+https://github.com/yati-sagade/zhang-suen-thinning
