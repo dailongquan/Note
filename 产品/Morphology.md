@@ -72,3 +72,5 @@ https://cs.nyu.edu/exact/core/cdt/
 **The Delaunay constrained triangulation: the Delaunay stable algorithms
 
 **General-Dimensional Constrained Delaunay and Constrained Regular Triangulations, I: Combinatorial Properties
+
+**Skeletonization of Ribbon-Like Shapes Based on a New Wavelet Function
