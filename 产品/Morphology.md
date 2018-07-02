@@ -70,7 +70,7 @@ https://github.com/yati-sagade/zhang-suen-thinning
 http://www.geom.at/fade2d/html/
 https://cs.nyu.edu/exact/core/cdt/
 http://www.cs.cmu.edu/~quake/triangle.html
-
+http://www.qhull.org/
 
 **The Delaunay constrained triangulation: the Delaunay stable algorithms
 
