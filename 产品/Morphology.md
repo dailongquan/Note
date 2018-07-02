@@ -68,3 +68,5 @@ https://github.com/yati-sagade/zhang-suen-thinning
 **Constrained Delaunay Triangulations
 
 **The Delaunay constrained triangulation: the Delaunay stable algorithms
+
+**General-Dimensional Constrained Delaunay and Constrained Regular Triangulations, I: Combinatorial Properties
