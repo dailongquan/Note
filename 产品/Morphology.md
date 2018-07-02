@@ -65,4 +65,4 @@ https://github.com/linbojin/Skeletonization-by-Zhang-Suen-Thinning-Algorithm
 https://github.com/yati-sagade/zhang-suen-thinning
 
 
-**The Delaunay constrained triangulation
+**The Delaunay constrained triangulation: the Delaunay stable algorithms
