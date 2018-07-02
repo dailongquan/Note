@@ -19,3 +19,6 @@ http://www4.ujaen.es/~fmartin/bool_op.html
 # Shoelace formula
 
 https://en.wikipedia.org/wiki/Shoelace_formula
+
+
+http://www.angusj.com/delphi/clipper.php
