@@ -1,4 +1,4 @@
-
+ssh dgxuser@103.46.128.41 -p 11608
 
 ``` sh?linenums
 #Cinnamon
