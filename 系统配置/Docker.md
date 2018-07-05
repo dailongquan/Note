@@ -21,6 +21,7 @@ All done.
 
 ``` sh?linenums
 docker --version
+Docker version 17.03.2-ce, build f5ec1e2
 ```
 ### NVIDIA Docker
 
