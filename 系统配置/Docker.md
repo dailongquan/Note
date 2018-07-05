@@ -3,6 +3,10 @@ https://www.w3cschool.cn/docker/docker-hello-world.html
 # Introduction
 Docker has revolutionized how web applications are hosted and servers are run. Docker containers allow server administrators to compartmentalize their applications like virtual machines, but containers are much lighter weight, are easier to manager, and add less overhead. Installing Docker on Ubuntu is very simple. Because Ubuntu is a popular choice for the cloud, the entire process has been streamlined to a science.
 
+# Install Docker from Ubuntu Repository
+Installation from the standard Ubuntu repository consists of a single apt command. It may yield stable but lower docker version number:
+
+
 ### NVIDIA Docker
 
 	# If you have nvidia-docker 1.0 installed: we need to remove it and all existing GPU containers
