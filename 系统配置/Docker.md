@@ -6,6 +6,9 @@ Docker has revolutionized how web applications are hosted and servers are run. D
 # Install Docker from Ubuntu Repository
 Installation from the standard Ubuntu repository consists of a single apt command. It may yield stable but lower docker version number:
 
+``` sh?linenums
+sudo apt install docker.io
+```
 
 ### NVIDIA Docker
 
