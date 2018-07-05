@@ -12,7 +12,16 @@ sudo apt install docker.io
 
 The following linux commands will start Docker and ensure that starts after the reboot:
 
+``` sh?linenums
+sudo systemctl start docker
+sudo systemctl enable docker
+```
 
+All done.
+
+``` sh?linenums
+docker --version
+```
 ### NVIDIA Docker
 
 	# If you have nvidia-docker 1.0 installed: we need to remove it and all existing GPU containers
