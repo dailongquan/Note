@@ -10,6 +10,9 @@ Installation from the standard Ubuntu repository consists of a single apt comman
 sudo apt install docker.io
 ```
 
+The following linux commands will start Docker and ensure that starts after the reboot:
+
+
 ### NVIDIA Docker
 
 	# If you have nvidia-docker 1.0 installed: we need to remove it and all existing GPU containers
