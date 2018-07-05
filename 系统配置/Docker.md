@@ -17,12 +17,42 @@ sudo systemctl start docker
 sudo systemctl enable docker
 ```
 
-All done.
+# Install Docker from the Official Docker Repository
+## Install the Dependencies
+Docker has its own repositories. Before you can install it from those repos, you need to install the prerequisite dependencies. Update your system, and grab them with Apt.
 
 ``` sh?linenums
-docker --version
-Docker version 17.03.2-ce, build f5ec1e2
+sudo apt update
+$ sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
+
+## Add The Docker Repository
+Create a new file for the Docker repository at /etc/apt/sources.list.d/docker.list. In that file, place one of the following lines choosing either stable, nightly or edge builds:
+
+``` sh?linenums
+STABLE (NOT YET AVAILABLE!), please check availabilty before using:
+deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
+EDGE:
+deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic edge
+NIGHTLY:
+deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic nightly
+```
+Next, you need to add Docker's GPG key.
+``` sh?linenums
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+Once, that's imported, update Apt again.
+``` sh?linenums
+sudo apt update
+```
+## Install Docker CE
+You can simply install the Docker CE package.
+``` sh?linenums
+sudo apt install docker-ce
+```
+
+
+
 ### NVIDIA Docker
 
 	# If you have nvidia-docker 1.0 installed: we need to remove it and all existing GPU containers
