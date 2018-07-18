@@ -118,7 +118,7 @@ bash ~/.bashrc
 
 ### Pycharm(注意版本号)
 
-version=2018.1.2
+version=2018.1.4
 test -d ~/Workbench/App/JetBrains || mkdir -p ~/Workbench/App/JetBrains
 wget -O ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz https://download.jetbrains.com/python/pycharm-professional-${version}.tar.gz
 tar -xzvf ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz -C ~/Workbench/App/JetBrains
@@ -129,7 +129,7 @@ source ~/.bashrc
 
 ### Clion(注意版本号)
 
-version=2018.1.5
+version=2018.1.6
 test -d ~/Workbench/App/JetBrains || mkdir -p ~/Workbench/App/JetBrains
 wget -O ~/Workbench/App/JetBrains/CLion-${version}.tar.gz https://download.jetbrains.com/cpp/CLion-${version}.tar.gz
 tar -xzvf ~/Workbench/App/JetBrains/CLion-${version}.tar.gz -C ~/Workbench/App/JetBrains
