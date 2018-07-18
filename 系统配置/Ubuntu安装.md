@@ -17,6 +17,8 @@ echo "lqdai" | sudo -S apt update
 
 
 ### 目录相关
+sudo apt install nfs-common
+
 echo "lqdai" | sudo -S apt install nfs-common
 
 echo "lqdai" | sudo -S chmod -R 777 ~/Workbench
