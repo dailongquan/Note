@@ -139,6 +139,10 @@ echo 'export PATH="/home/lqdai/Workbench/App/JetBrains/clion/bin:$PATH"' >> ~/.b
 chmod u+x ~/.bashrc
 source ~/.bashrc
 
+### SmartGit(注意版本号)
+
+version=18_1_3
+test -d ~/Workbench/App/Syntevo || mkdir -p ~/Workbench/App/JetBrains
 
 ### CUDA
 #从官网
