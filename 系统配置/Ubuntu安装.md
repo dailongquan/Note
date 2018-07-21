@@ -19,6 +19,12 @@ sudo systemctl get-default
 sudo systemctl set-default multi-user.target
 sudo systemctl set-default graphical.target
 
+#Adjusting Locales
+The default settings are stored in the /etc/default/locale file.
+
+cat /etc/default/locale 
+sudo update-locale LANG=en_US.UTF-8
+sudo update-locale LANGUAGE=en_US
 
 #Cinnamon
 echo "lqdai" | sudo -S add-apt-repository ppa:embrosyn/cinnamon
