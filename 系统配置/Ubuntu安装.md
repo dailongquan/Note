@@ -5,11 +5,21 @@ grammar_cjkRuby: true
 ---
 
 
+
+
 ssh dgxuser@103.46.128.41 -p 11608
 ssh tch@103.46.128.41 -p 11608
 ssh -L 8000:localhost:8888 your_server_username@your_server_ip
 
 ``` sh?linenums
+
+adduser tch
+
+systemctl get-default
+systemctl set-default multi-user.target
+systemctl set-default graphical.target
+
+
 #Cinnamon
 echo "lqdai" | sudo -S add-apt-repository ppa:embrosyn/cinnamon
 echo "lqdai" | sudo -S apt update
