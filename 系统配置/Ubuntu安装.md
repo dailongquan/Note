@@ -15,9 +15,9 @@ ssh -L 8000:localhost:8888 your_server_username@your_server_ip
 
 adduser tch
 
-systemctl get-default
-systemctl set-default multi-user.target
-systemctl set-default graphical.target
+sudo systemctl get-default
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
 
 
 #Cinnamon
