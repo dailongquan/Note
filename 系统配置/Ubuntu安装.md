@@ -19,6 +19,13 @@ sudo systemctl get-default
 sudo systemctl set-default multi-user.target
 sudo systemctl set-default graphical.target
 
+
+sudo apt install openssh-client
+sudo apt install openssh-server
+
+
+
+
 #Adjusting Locales
 The default settings are stored in the /etc/default/locale file.
 
@@ -108,7 +115,7 @@ echo "lqdai" | sudo -S apt install mono-devel -y
 
 
 ### Anaconda(注意链接地址)
-wget -O anaconda https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
+wget -O anaconda https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
 chmod u+x anaconda  
 bash anaconda -b -p ~/Workbench/App/anaconda
 rm anaconda  
