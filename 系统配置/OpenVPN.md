@@ -26,3 +26,5 @@ Launch the OpenVPN Server
 ```sh
 docker run --volumes-from $OVPN_DATA --rm -p 1194:1194/udp --cap-add=NET_ADMIN kylemanna/openvpn
 ```
+
+ sudo openvpn /etc/openvpn/client.conf
