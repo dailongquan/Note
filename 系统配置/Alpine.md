@@ -12,6 +12,8 @@ apk add sudo nano
 nano /etc/sudoers
 ```
 youuser            ALL=(ALL)                NOPASSWD: ALL
+
+
 ``` sh
 setup-xorg-base
 
