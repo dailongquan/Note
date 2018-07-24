@@ -11,7 +11,7 @@ apk add sudo nano
 ``` sh
 nano /etc/sudoers
 ```
-youuser            ALL=(ALL)                NOPASSWD: ALL
+lqdai            ALL=(ALL)                NOPASSWD: ALL
 
 
 ``` sh
