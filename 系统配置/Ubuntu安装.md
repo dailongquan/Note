@@ -85,6 +85,8 @@ Add the following line to your /etc/apt/sources.list. According to your distribu
 	deb https://download.virtualbox.org/virtualbox/debian bionic contrib
 ``` sh?linenums	
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install virtualbox
 ```
 ``` sh?linenums
 ### Webmin
