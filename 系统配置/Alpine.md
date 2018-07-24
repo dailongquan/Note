@@ -7,11 +7,10 @@ grammar_cjkRuby: true
 setup-alpine
 adduser lqdai
 apk add sudo nano
+ 
+echo 'lqdai   ALL=(ALL)   NOPASSWD: ALL'>>/etc/sudoers
 ```
-``` sh
-nano /etc/sudoers
-```
-lqdai            ALL=(ALL)                NOPASSWD: ALL
+lqdai   ALL=(ALL)   NOPASSWD: ALL
 
 
 ``` sh
