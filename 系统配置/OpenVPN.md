@@ -3,7 +3,7 @@ title: OpenVPN
 tags: 系统配置
 grammar_cjkRuby: true
 ---
-
+https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-container-on-ubuntu-14-04
 ```sh
 OVPN_DATA="ovpn-data"
 ```
@@ -18,4 +18,8 @@ docker run --volumes-from $OVPN_DATA --rm kylemanna/openvpn ovpn_genconfig -u ud
 Generate the EasyRSA PKI certificate authority. You will be prompted for a passphrase for the CA private key. Pick a good one and remember it; without the passphrase it will be impossible to issue and sign client certificates:
 ```sh
 docker run --volumes-from $OVPN_DATA --rm -it kylemanna/openvpn ovpn_initpki
+```
+Launch the OpenVPN Server
+```sh
+docker run --volumes-from $OVPN_DATA --rm -p 1194:1194/udp --cap-add=NET_ADMIN kylemanna/openvpn
 ```
