@@ -9,8 +9,11 @@ adduser lqdai
 apk add sudo nano
  
 echo 'lqdai   ALL=(ALL)   NOPASSWD: ALL'>>/etc/sudoers
+sudo echo 'PermitRootLogin yes'>>/etc/ssh/sshd_config
+
+apk add xf86-video-vmware
 ```
-lqdai   ALL=(ALL)   NOPASSWD: ALL
+
 
 
 ``` sh
