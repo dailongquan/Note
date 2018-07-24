@@ -3,6 +3,9 @@ title: OpenVPN
 tags: 系统配置
 grammar_cjkRuby: true
 ---
+https://community.teamviewer.com/t5/Knowledge-Base/About-TeamViewer-VPN/ta-p/6354
+
+
 https://blog.csdn.net/u012843189/article/details/77422505
 https://help.ubuntu.com/lts/serverguide/openvpn.html
 https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-container-on-ubuntu-14-04
