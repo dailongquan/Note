@@ -86,7 +86,7 @@ Add the following line to your /etc/apt/sources.list. According to your distribu
 ``` sh?linenums	
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 sudo apt-get update
-sudo apt-get install virtualbox virtualbox-guest-additions-iso
+sudo apt-get install virtualbox virtualbox-guest-additions-iso virtualbox-qt
 ```
 ``` sh?linenums
 ### Webmin
