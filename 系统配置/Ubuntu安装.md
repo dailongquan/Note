@@ -22,7 +22,8 @@ sudo systemctl set-default graphical.target
 
 sudo apt install openssh-client
 sudo apt install openssh-server
-
+sudo systemctl enable ssh
+sudo systemctl restart ssh
 
 
 
@@ -76,6 +77,14 @@ echo "lqdai" | sudo -S apt install google-chrome-stable -y
 ### Latex
 echo "lqdai" | sudo -S apt install texlive-full texstudio -y  
 
+```
+
+### VirtualBox
+Add the following line to your /etc/apt/sources.list. According to your distribution, replace '<mydist>' with 'artful', 'zesty', 'yakkety', 'xenial', 'trusty', 'stretch', 'jessie', or 'wheezy' (older versions of VirtualBox supported different distributions): 
+
+	deb https://download.virtualbox.org/virtualbox/debian bionic contrib
+
+``` sh?linenums
 ### Webmin
 wget -q -O - http://www.webmin.com/jcameron-key.asc | sudo apt-key add  -  
 echo "lqdai" | sudo -S add-apt-repository "deb http://download.webmin.com/download/repository sarge contrib"  
