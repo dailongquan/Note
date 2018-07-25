@@ -3,6 +3,7 @@ title: OpenVPN
 tags: 系统配置
 grammar_cjkRuby: true
 ---
+https://www.cnblogs.com/hjfeng1988/p/5702594.html
 https://community.teamviewer.com/t5/Knowledge-Base/About-TeamViewer-VPN/ta-p/6354
 http://www.winseliu.com/blog/2017/11/04/teamviewer-vpn-on-windows/
 
