@@ -15,7 +15,7 @@ https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-
 https://blog.csdn.net/luomao2012/article/details/78143168
 
 
-
+# 服务器端配置
 
 sudo apt install easy-rsa
 mkdir ~/easy-rsa
@@ -59,10 +59,10 @@ openvpn --genkey --secret keys/ta.key
 
 最后，我们来创建OpenVPN配置
 
-cp ~/easy-rsa/keys/ca.crt   /etc/openvpn
-cp ~/easy-rsa/keys/server.crt   /etc/openvpn
-cp ~/easy-rsa/keys/server.key   /etc/openvpn
-cp ~/easy-rsa/keys/dh2048.pem   /etc/openvpn
+cp ~/easy-rsa/keys/ca.crt   /etc/openvpn/
+cp ~/easy-rsa/keys/server.crt   /etc/openvpn/
+cp ~/easy-rsa/keys/server.key   /etc/openvpn/
+cp ~/easy-rsa/keys/dh2048.pem   /etc/openvpn/
 
 nano /etc/openvpn/server.conf
 
@@ -384,4 +384,6 @@ verb 3
 explicit-exit-notify 0
 ```
 
+
+# 客户端配置
 
