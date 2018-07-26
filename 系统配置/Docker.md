@@ -27,18 +27,8 @@ $ sudo apt install apt-transport-https ca-certificates curl software-properties-
 ```
 
 ## Add The Docker Repository
-Create a new file for the Docker repository at /etc/apt/sources.list.d/docker.list. In that file, place one of the following lines choosing either stable, nightly or edge builds:
 
-``` sh?linenums
-STABLE (NOT YET AVAILABLE!), please check availabilty before using:
-deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
-EDGE:
-deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic edge
-NIGHTLY:
-deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic nightly
-```
-
-Next, you need to add Docker's GPG key.
+Add Docker’s official GPG key:
 
 ``` sh?linenums
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
