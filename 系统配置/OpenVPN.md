@@ -59,6 +59,8 @@ openvpn --genkey --secret keys/ta.key
 
 最后，我们来创建OpenVPN配置
 
+nano /etc/openvpn/server.conf
+
 ```
 #################################################
 # Sample OpenVPN 2.0 config file for            #
