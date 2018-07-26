@@ -30,4 +30,30 @@ export KEY_ORG="njust"
 export KEY_EMAIL="lqdai@foxmail.com"
 export KEY_OU="server"
 
+我们需要拷贝openssl配置。另外一个版本已经有现成的配置文件，如果你没有特定要求，你可以使用它的上一个版本。这里是1.0.0版本。
+
 cp openssl-1.0.0.cnf openssl.cnf
+
+我们需要加载环境变量，这些变量已经在前面一步中编辑好了。
+
+source ./vars
+
+生成密钥的最后一步准备工作是清空旧的证书和密钥，以及生成新密钥的序列号和索引文件。可以通过以下命令完成。
+./clean-all
+
+现在，我们完成了准备工作，准备好启动生成进程了。让我们先来生成证书。
+
+./build-ca
+
+接下来，我们需要生成一个服务器密钥
+
+./build-key-server server
+
+现在，我们已经有了证书和服务器密钥。下一步，就是去生成Diffie-Hellman密钥。
+
+./build-dh
+
+继续生成最后的密钥了，该密钥用于TLS验证。
+
+openvpn --genkey --secret keys/ta.key
+
