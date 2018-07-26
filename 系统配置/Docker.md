@@ -37,10 +37,21 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic edge
 NIGHTLY:
 deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic nightly
 ```
+
 Next, you need to add Docker's GPG key.
+
 ``` sh?linenums
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
+
+``` sh?linenums
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+```
+
+
 Once, that's imported, update Apt again.
 ``` sh?linenums
 sudo apt update
