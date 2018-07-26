@@ -60,9 +60,9 @@ openvpn --genkey --secret keys/ta.key
 最后，我们来创建OpenVPN配置
 
 cp ~/easy-rsa/keys/ca.crt   /etc/openvpn
-cp ~/easy-rsa/keys/ca.crt   /etc/openvpn
-cp ~/easy-rsa/keys/ca.crt   /etc/openvpn
-cp ~/easy-rsa/keys/ca.crt   /etc/openvpn
+cp ~/easy-rsa/keys/server.crt   /etc/openvpn
+cp ~/easy-rsa/keys/server.key   /etc/openvpn
+cp ~/easy-rsa/keys/dh2048.pem   /etc/openvpn
 
 nano /etc/openvpn/server.conf
 
