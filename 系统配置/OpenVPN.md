@@ -534,11 +534,9 @@ auth SHA256
 verb 3
 
 # Silence repeating messages
-;mute 20
-
+mute 20
 
 key-direction 1
-
 
 script-security 2
 
