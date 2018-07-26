@@ -400,7 +400,6 @@ explicit-exit-notify 0
 现在，我们需要将以下文件从服务器拷贝到客户端/etc/openvpn/keys/文件夹。
 服务器文件列表：
 ca.crt,
-dh2048.pem,
 client.crt,
 client.key,
 ta.key.
