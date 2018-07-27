@@ -82,7 +82,8 @@ echo "lqdai" | sudo -S apt install texlive-full texstudio -y
 ### VirtualBox
 Add the following line to your /etc/apt/sources.list. According to your distribution, replace '<mydist>' with 'artful', 'zesty', 'yakkety', 'xenial', 'trusty', 'stretch', 'jessie', or 'wheezy' (older versions of VirtualBox supported different distributions): 
 
-	deb https://download.virtualbox.org/virtualbox/debian bionic contrib
+	deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian bionic contrib
+	
 ``` sh?linenums	
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 sudo apt-get update
