@@ -22,6 +22,7 @@ sudo systemctl enable docker
 Docker has its own repositories. Before you can install it from those repos, you need to install the prerequisite dependencies. Update your system, and grab them with Apt.
 
 ``` sh?linenums
+sudo apt-get remove docker docker-engine docker.io
 sudo apt update
 $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
