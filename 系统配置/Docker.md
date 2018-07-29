@@ -85,6 +85,11 @@ sudo usermod -aG docker $USER
 
 # Verify that you can run docker commands without sudo.
 docker run hello-world
+
+# Configure Docker to start on boot
+
+sudo systemctl enable docker
+
 ```
 https://devblogs.nvidia.com/nvidia-docker-gpu-server-application-deployment-made-easy/
 
