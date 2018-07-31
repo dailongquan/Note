@@ -138,7 +138,7 @@ rm anaconda
 
 ###Cmake(注意版本号)
 
-version=3.11.1
+version=3.12.0
 root_dir=~/Workbench/App/Kitware
 remote_url=https://cmake.org/files/v${version%.*}/cmake-${version}-Linux-x86_64.tar.gz
 install_dir=${root_dir}/cmake
