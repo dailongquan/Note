@@ -4,6 +4,8 @@ tags: 备忘
 grammar_cjkRuby: true
 ---
 
+deb http://archive.neon.kde.org/user xenial main
+deb-src http://archive.neon.kde.org/user xenial main
 
 
 
