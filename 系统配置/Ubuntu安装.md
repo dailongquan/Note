@@ -3,6 +3,7 @@ title: Ubuntu\Mint安装
 tags: 备忘
 grammar_cjkRuby: true
 ---
+neon.list
 
 deb http://archive.neon.kde.org/user xenial main
 deb-src http://archive.neon.kde.org/user xenial main
