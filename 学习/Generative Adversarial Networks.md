@@ -11,6 +11,7 @@ grammar_cjkRuby: true
 
 https://github.com/architrathore/CycleGAN/
 
+### Generative Semantic Manipulation with Contrasting GAN
 
 
 Categorical Reparameterization with Gumbel-Softmax
