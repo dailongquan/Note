@@ -4,6 +4,15 @@ tags: 学习
 grammar_cjkRuby: true
 ---
 
+### Learning Generative Adversarial Networks: Next-generation deep learning simplified
+
+### GANs in Action
+
+https://www.manning.com/books/gans-in-action?a_aid=gans-action&a_bid=fd02700a
+
+### Generative Adversarial Networks: An Overview
+
+
 ### Unsupervised Cipher Cracking Using Discrete GANs
 
 ### Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
