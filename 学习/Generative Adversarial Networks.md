@@ -4,6 +4,13 @@ tags: 学习
 grammar_cjkRuby: true
 ---
 
-Unsupervised Cipher Cracking Using Discrete GANs
+### Unsupervised Cipher Cracking Using Discrete GANs
+
+### Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
+
+
+https://github.com/architrathore/CycleGAN/
+
+
 
 Categorical Reparameterization with Gumbel-Softmax
