@@ -6,4 +6,4 @@ grammar_cjkRuby: true
 
 Unsupervised Cipher Cracking Using Discrete GANs
 
-
+Categorical Reparameterization with Gumbel-Softmax
