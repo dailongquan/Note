@@ -23,4 +23,8 @@ https://github.com/architrathore/CycleGAN/
 ### Generative Semantic Manipulation with Contrasting GAN
 
 
-Categorical Reparameterization with Gumbel-Softmax
+### Categorical Reparameterization with Gumbel-Softmax
+
+
+### SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient
+
