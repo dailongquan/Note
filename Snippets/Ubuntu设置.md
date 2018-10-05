@@ -19,7 +19,7 @@ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n
 eval "$(pyenv init -)"\nfi' >> ~/.zshenv
 #Restart your shell so the path changes take effect
 exec "$SHELL"
-
+pyenv install 3.6.6
 ## Chrome
 
 sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
