@@ -9,6 +9,10 @@ grammar_cjkRuby: true
 
 ## LyX
 
+sudo add-apt-repository ppa:lyx-devel/release
+sudo apt-get update
+sudo apt install lyx
+
 ## Docker CE
 
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
