@@ -20,4 +20,8 @@ sudo apt-get install google-chrome-stable
 
 ## 开始菜单编辑
 
-mozo
+``` sh?linenums
+sudo apt-get install mozo 
+
+sudo apt-get install alacarte
+```
