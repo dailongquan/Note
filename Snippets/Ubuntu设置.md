@@ -41,7 +41,9 @@ ln -s /opt/Workbench/ ~/Workbench
 
 sudo apt install -y nfs-common
 
+## Guake
 
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshenv
 
 ## zsh
 
