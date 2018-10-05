@@ -7,6 +7,12 @@ grammar_cjkRuby: true
 ## zsh
 
 
+## Python
+
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshenv
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshenv
+
 
 
 ## Chrome
