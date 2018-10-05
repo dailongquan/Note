@@ -7,6 +7,8 @@ grammar_cjkRuby: true
 ## zsh
 
 
+## LyX
+
 ## Docker CE
 
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
