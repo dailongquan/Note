@@ -63,6 +63,11 @@ pipenv install requests
 
 sudo echo -e 'deb http://deb.opera.com/opera/ stable non-free' > /etc/apt/sources.list.d/opera.list
 
+wget -O - http://deb.opera.com/archive.key | sudo apt-key add -
+
+sudo apt-get update
+
+sudo apt-get install opera
 
 
 ## Chrome
