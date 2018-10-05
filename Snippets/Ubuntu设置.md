@@ -11,9 +11,12 @@ grammar_cjkRuby: true
 
 
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+#Define environment variable PYENV_ROOT
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshenv
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshenv
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshenv
+#Add pyenv init to your shell
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  
+eval "$(pyenv init -)"\nfi' >> ~/.zshenv
 #Restart your shell so the path changes take effect
 exec "$SHELL"
 
