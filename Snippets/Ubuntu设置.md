@@ -44,6 +44,8 @@ sudo apt install -y nfs-common
 ## Guake
 
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshenv
+pip3 install --user guake
+
 
 ## zsh
 
@@ -76,6 +78,9 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 
 ## Python
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3  get-pip.py --user
 
 
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
