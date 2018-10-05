@@ -4,6 +4,46 @@ tags: Snippets
 grammar_cjkRuby: true
 ---
 ``` sh?linenums
+#!/user/bin/sh 
+
+user=lqdai
+password=lqdai 
+
+echo $password | sudo -S apt install -y expect  nfs-common  openssh-client openssh-server
+
+sudo systemctl enable sshd.service
+
+sudo systemctl start sshd.service
+
+
+/usr/bin/expect << EOF
+set timeout -1
+spawn sudo passwd root
+expect -re {\[sudo\] password for $user:} {send "$password\r"}
+expect -re {Enter new UNIX password:} {send "$password\r"}
+expect -re {Retype new UNIX password:} {send "$password\r"}
+expect eof
+EOF
+
+/usr/bin/expect << EOF
+set timeout -1
+spawn su root
+expect "Password:" {send "$password\r"}
+send "chmod u+w /etc/sudoers\r"
+send "echo '$user ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers\r"
+send "chmod u-w /etc/sudoers\r"
+send "cat /etc/sudoers\r"
+send "su $user\r"
+expect eof
+EOF
+
+sudo chmod 777 /opt/Workbench
+ln -s /opt/Workbench/ ~/Workbench
+
+
+
+
+
 ## zsh
 
 
