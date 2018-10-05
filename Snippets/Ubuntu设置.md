@@ -26,10 +26,11 @@ git tag
 git checkout v1.2.7
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev
 #Install Python versions into $(pyenv root)/versions
-pyenv install 3.6.6
+pyenv install 3.6.6  2.7.15
 pyenv rehash
-#pyenv local 3.6.6
+pyenv local 3.6.6 2.7.15
 curl https://raw.githubusercontent.com/kennethreitz/pipenv/master/get-pipenv.py | python
+pipenv install requests
 ## Chrome
 
 sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
