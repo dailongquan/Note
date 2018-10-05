@@ -60,7 +60,8 @@ curl https://raw.githubusercontent.com/kennethreitz/pipenv/master/get-pipenv.py 
 pipenv install requests
 
 ## Opera
-sudo echo -e 'deb http://deb.opera.com/opera/ stable non-free'
+
+sudo echo -e 'deb http://deb.opera.com/opera/ stable non-free' > /etc/apt/sources.list.d/opera.list
 
 
 
