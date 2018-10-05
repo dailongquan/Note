@@ -58,6 +58,12 @@ pyenv rehash
 pyenv local 3.6.6 2.7.15
 curl https://raw.githubusercontent.com/kennethreitz/pipenv/master/get-pipenv.py | python
 pipenv install requests
+
+## Opera
+sudo echo -e 'deb http://deb.opera.com/opera/ stable non-free'
+
+
+
 ## Chrome
 
 sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
