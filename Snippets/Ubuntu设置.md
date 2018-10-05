@@ -9,10 +9,9 @@ grammar_cjkRuby: true
 user=lqdai
 password=lqdai 
 
-echo $password | sudo -S apt install -y expect nfs-common openssh-client openssh-server
+echo $password | sudo -S apt install -y expect openssh-client openssh-server
 
 sudo systemctl enable sshd.service
-
 sudo systemctl start sshd.service
 
 
@@ -40,7 +39,7 @@ EOF
 sudo chmod 777 /opt/Workbench
 ln -s /opt/Workbench/ ~/Workbench
 
-apt install -y nfs-common
+sudo apt install -y nfs-common
 
 
 
