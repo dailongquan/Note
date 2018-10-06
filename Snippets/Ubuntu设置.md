@@ -211,6 +211,35 @@ cat > $HOME/.local/share/applications/run_incognito_opera.sh << EOF
 GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/opera --private
 EOF
 chmod u+x $HOME/.local/share/applications/run_incognito_opera.sh
+
+cat > $HOME/.local/share/applications/opera.desktop << EOF 
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Name=Opera
+GenericName=Web browser
+Comment=Fast and secure web browser
+TryExec=opera
+Exec=$HOME/.local/share/applications/run_opera.sh
+Terminal=false
+Icon=opera
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;application/x-opera-download;
+Actions=NewWindow;NewPrivateWindow;
+
+[Desktop Action NewWindow]
+Name=New Window
+Exec=$HOME/.local/share/applications/run_opera.sh
+
+
+[Desktop Action NewPrivateWindow]
+Name=New Private Window
+Exec=$HOME/.local/share/applications/run_incognito_opera.sh
+
+EOF
+chmod u+x ~/.local/share/applications/opera.desktop
 ```
 
 ## 开始菜单编辑
