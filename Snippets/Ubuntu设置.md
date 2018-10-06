@@ -153,7 +153,7 @@ chmod u+x ~/.local/share/applications/zotero.desktop
 
 # Wiznote
 pushd /usr/local/sbin/
-cat > ~/.local/share/applications/wiznote.desktop << EOF 
+cat > $HOME/.local/share/applications/wiznote.desktop << EOF 
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
