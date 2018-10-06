@@ -12,6 +12,7 @@ password=lqdai
 ## 安装expect openssh
 echo $password | sudo -S apt install -y expect openssh-client openssh-server
 
+## 设置openssh
 sudo systemctl enable sshd.service
 sudo systemctl start sshd.service
 
