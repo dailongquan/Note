@@ -156,7 +156,7 @@ chmod u+x ~/.local/share/applications/story-write.desktop
 # Chrome HiDPI光标跟随
 
 
-
+# Opera HiDPI光标跟随
 ```
 
 ## 开始菜单编辑
