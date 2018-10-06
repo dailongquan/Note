@@ -69,13 +69,11 @@ EOF
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 ## 安装LyX
-
 sudo add-apt-repository ppa:lyx-devel/release
 sudo apt-get update
 sudo apt install lyx
 
 ## 安装Docker CE
-
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -86,19 +84,12 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 #sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu  bionic stable"
 
 sudo apt-get update
-
 sudo apt-get install docker-ce
-
 sudo docker run hello-world
-
 sudo groupadd docker
-
 sudo usermod -aG docker $USER
 
 ## Python
-
-
-
 
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 #Define environment variable PYENV_ROOT
