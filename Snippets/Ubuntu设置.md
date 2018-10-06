@@ -4,7 +4,7 @@ tags: Snippets
 grammar_cjkRuby: true
 ---
 
-# 安装配置
+# 系统安装配置
 
 ``` sh?linenums
 #!/user/bin/sh 
