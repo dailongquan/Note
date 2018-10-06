@@ -155,21 +155,21 @@ chmod u+x ~/.local/share/applications/story-write.desktop
 
 # Chrome HiDPI光标跟随
 
-cat > $HOME/.local/share/applications/run_google_chrome.sh << EOF
+cat > $HOME/.local/share/applications/run_chrome.sh << EOF
 #!/usr/bin/env bash
 
-GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/google-chrome-stable $1
+GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/chrome-stable $1
 EOF
-chmod u+x $HOME/.local/share/applications/run_google_chrome.sh
+chmod u+x $HOME/.local/share/applications/run_chrome.sh
 
-cat > $HOME/.local/share/applications/run_incognito_google_chrome.sh << EOF
+cat > $HOME/.local/share/applications/run_incognito_chrome.sh << EOF
 #!/usr/bin/env bash
 
 GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/google-chrome-stable --incognito
 EOF
-chmod u+x $HOME/.local/share/applications/run_incognito_google_chrome.sh
+chmod u+x $HOME/.local/share/applications/run_incognito_chrome.sh
 
-cat > $HOME/.local/share/applications/google-chrome.desktop << EOF 
+cat > $HOME/.local/share/applications/chrome.desktop << EOF 
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
@@ -178,23 +178,26 @@ Type=Application
 Terminal=false
 Icon=google-chrome
 Name=Google Chrome
-Exec=$HOME/.local/share/applications/run_google_chrome.sh
+Exec=$HOME/.local/share/applications/run_chrome.sh
 Categories=Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
 Actions=new-window;new-private-window;
 
 [Desktop Action new-window]
 Name=New Window
-Exec=$HOME/.local/share/applications/run_google_chrome.sh
+Exec=$HOME/.local/share/applications/run_chrome.sh
 
 [Desktop Action new-private-window]
 Name=New Incognito Window
 
-Exec=$HOME/.local/share/applications/run_incognito_google_chrome.sh 
+Exec=$HOME/.local/share/applications/run_incognito_chrome.sh 
 EOF
-chmod u+x ~/.local/share/applications/google-chrome.desktop
+chmod u+x ~/.local/share/applications/chrome.desktop
+
 
 # Opera HiDPI光标跟随
+
+
 ```
 
 ## 开始菜单编辑
