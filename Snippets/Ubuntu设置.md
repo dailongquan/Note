@@ -74,7 +74,7 @@ sudo add-apt-repository ppa:lyx-devel/release
 sudo apt-get update
 sudo apt install lyx
 
-## Docker CE
+## 安装Docker CE
 
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 
