@@ -162,7 +162,12 @@ GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/google-chrome-stable $1
 EOF
 chmod u+x $HOME/.local/share/applications/run_google_chrome.sh
 
+cat > $HOME/.local/share/applications/run_incognito_google_chrome.sh << EOF
+#!/usr/bin/env bash
 
+GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/google-chrome-stable --incognito
+EOF
+chmod u+x $HOME/.local/share/applications/run_incognito_google_chrome.sh
 
 cat > $HOME/.local/share/applications/google-chrome.desktop << EOF 
 #!/usr/bin/env xdg-open
@@ -185,7 +190,7 @@ Exec=$HOME/.local/share/applications/run_google_chrome.sh
 [Desktop Action new-private-window]
 Name=New Incognito Window
 
-Exec=$HOME/.local/share/applications/run_google_chrome.sh --incognito
+Exec=$HOME/.local/share/applications/run_incognito_google_chrome.sh 
 EOF
 chmod u+x ~/.local/share/applications/google-chrome.desktop
 
