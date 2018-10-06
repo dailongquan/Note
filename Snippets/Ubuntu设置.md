@@ -150,6 +150,7 @@ Name[en_US]=Story Write
 Exec=/home/lqdai/Workbench/App/Story-writer/run.sh
 Name=Story Write
 EOF
+chmod u+x ~/.local/share/applications/story-write.desktop
 ```
 
 ## 开始菜单编辑
