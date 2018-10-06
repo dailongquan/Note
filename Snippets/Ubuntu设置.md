@@ -68,6 +68,18 @@ expect eof
 EOF
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+## Opera
+sudo echo -e 'deb https://deb.opera.com/opera-stable/ stable non-free' > /etc/apt/sources.list.d/opera.list
+wget -O - http://deb.opera.com/archive.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install opera
+
+## Chrome
+sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+sudo wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install google-chrome-stable
+
 ## 安装LyX
 sudo add-apt-repository ppa:lyx-devel/release
 sudo apt-get update
@@ -113,25 +125,7 @@ pyenv local 3.6.6 2.7.15
 curl https://raw.githubusercontent.com/kennethreitz/pipenv/master/get-pipenv.py | python
 pipenv install requests
 
-## Opera
-sudo echo -e 'deb https://deb.opera.com/opera-stable/ stable non-free' > /etc/apt/sources.list.d/opera.list
 
-wget -O - http://deb.opera.com/archive.key | sudo apt-key add -
-
-sudo apt-get update
-
-sudo apt-get install opera
-
-
-## Chrome
-
-sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
-
-sudo wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
-
-sudo apt-get update
-
-sudo apt-get install google-chrome-stable
 
 
 
