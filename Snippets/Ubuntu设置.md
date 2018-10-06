@@ -153,7 +153,7 @@ chmod u+x ~/.local/share/applications/zotero.desktop
 
 # Wiznote
 pushd $HOME/.local/share/applications
-wget https://raw.githubusercontent.com/WizTeam/WizQTClient/master/resources/logo_512.png
+wget -o wiznote.png https://raw.githubusercontent.com/WizTeam/WizQTClient/master/resources/logo_512.png
 popd
 
 cat > $HOME/.local/share/applications/wiznote.desktop << EOF 
