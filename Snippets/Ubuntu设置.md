@@ -14,7 +14,7 @@ echo $password | sudo -S apt install -y expect openssh-client openssh-server
 sudo systemctl enable sshd.service
 sudo systemctl start sshd.service
 
-
+## 设置root密码
 /usr/bin/expect << EOF
 set timeout -1
 spawn sudo passwd root
@@ -24,6 +24,7 @@ expect -re {Retype new UNIX password:} {send "$password\r"}
 expect eof
 EOF
 
+## 取消sudo密码
 /usr/bin/expect << EOF
 set timeout -1
 spawn su root
@@ -36,9 +37,11 @@ send "su $user\r"
 expect eof
 EOF
 
+## 更改权限
 sudo chmod 777 /opt/Workbench
 ln -s /opt/Workbench/ ~/Workbench
 
+## 安装NFS
 sudo apt install -y nfs-common
 
 ## 安装Guake
