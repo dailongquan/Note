@@ -146,7 +146,7 @@ Type=Application
 Terminal=false
 Icon=$HOME/Workbench/App/Zotero_linux-x86_64/chrome/icons/default/default256.png
 Exec=$HOME/Workbench/App/Zotero_linux-x86_64/zotero
-Name=Story Write
+Name=Zotero
 EOF
 chmod u+x ~/.local/share/applications/zotero.desktop
 
