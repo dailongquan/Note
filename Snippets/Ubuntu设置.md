@@ -41,7 +41,7 @@ ln -s /opt/Workbench/ ~/Workbench
 
 sudo apt install -y nfs-common
 
-## Guake
+## 安装Guake
 
 https://guake.readthedocs.io/en/latest/user/installing.html#install-from-source
 
@@ -68,13 +68,13 @@ expect eof
 EOF
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
-## Opera
+## 安装Opera
 sudo echo -e 'deb https://deb.opera.com/opera-stable/ stable non-free' > /etc/apt/sources.list.d/opera.list
 wget -O - http://deb.opera.com/archive.key | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install opera
 
-## Chrome
+## 安装Chrome
 sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
 sudo wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
 sudo apt-get update
