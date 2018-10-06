@@ -155,7 +155,7 @@ chmod u+x ~/.local/share/applications/story-write.desktop
 
 # Chrome HiDPI光标跟随
 
-cat > ~/.local/share/applications/run_google_chrome.sh << EOF
+cat > $HOME/.local/share/applications/run_google_chrome.sh << EOF
 #!/usr/bin/env bash
 
 GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/google-chrome-stable $1
@@ -163,7 +163,7 @@ EOF
 
 
 
-cat > ~/.local/share/applications/google-chrome.desktop << EOF 
+cat > $HOME/.local/share/applications/google-chrome.desktop << EOF 
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
@@ -172,7 +172,7 @@ Type=Application
 Terminal=false
 Icon=google-chrome
 Name=Google Chrome
-Exec=/home/lqdai/Workbench/App/Chrome/run_chrome.sh
+Exec=$HOME/.local/share/applications/run_google_chrome.sh
 Categories=Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
 Actions=new-window;new-private-window;
