@@ -163,9 +163,9 @@ cat > $HOME/.local/share/applications/wiznote.desktop << EOF
 Version=1.0
 Type=Application
 Terminal=false
-Icon=$HOME/Workbench/App/Zotero_linux-x86_64/chrome/icons/default/default256.png
+Icon=$HOME/.local/share/applications/wiznote.png
 Exec=$HOME/Workbench/App/Zotero_linux-x86_64/zotero
-Name=Wiznote
+Name=WizNote
 EOF
 chmod u+x ~/.local/share/applications/wiznote.desktop
 
