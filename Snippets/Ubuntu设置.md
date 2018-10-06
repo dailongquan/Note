@@ -153,7 +153,7 @@ EOF
 chmod u+x ~/.local/share/applications/story-write.desktop
 
 
-# Chrome
+# Chrome HiDPI光标跟随
 
 
 
