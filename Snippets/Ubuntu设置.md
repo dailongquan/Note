@@ -57,7 +57,7 @@ make
 
 sudo make install
 
-## zsh
+## 安装zsh
 sudo apt install -y zsh
 
 /usr/bin/expect << EOF
@@ -68,7 +68,7 @@ expect eof
 EOF
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
-## LyX
+## 安装LyX
 
 sudo add-apt-repository ppa:lyx-devel/release
 sudo apt-get update
