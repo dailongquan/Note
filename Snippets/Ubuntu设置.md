@@ -45,6 +45,8 @@ sudo apt install -y nfs-common
 
 https://guake.readthedocs.io/en/latest/user/installing.html#install-from-source
 
+git clone https://github.com/Guake/guake.git
+
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3  get-pip.py --user
 
