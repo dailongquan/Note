@@ -136,6 +136,7 @@ pipenv install requests
 # 菜单
 
 ```sh?linenums
+# Zotero
 cat > ~/.local/share/applications/zotero.desktop << EOF 
 #!/usr/bin/env xdg-open
 
