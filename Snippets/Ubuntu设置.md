@@ -197,7 +197,12 @@ chmod u+x ~/.local/share/applications/google-chrome.desktop
 
 # Opera HiDPI光标跟随
 
+cat > $HOME/.local/share/applications/run_opera.sh << EOF
+#!/usr/bin/env bash
 
+GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/opera
+EOF
+chmod u+x $HOME/.local/share/applications/run_chrome.sh
 ```
 
 ## 开始菜单编辑
