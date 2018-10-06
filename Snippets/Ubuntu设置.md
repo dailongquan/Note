@@ -42,11 +42,8 @@ ln -s /opt/Workbench/ ~/Workbench
 sudo apt install -y nfs-common
 
 ## 安装Guake
-
 https://guake.readthedocs.io/en/latest/user/installing.html#install-from-source
-
 git clone https://github.com/Guake/guake.git
-
 ./scripts/bootstrap-dev-debian.sh run make
 
 git fetch
@@ -54,7 +51,6 @@ git tag
 git checkout 3.4.0
 
 make
-
 sudo make install
 
 ## 安装zsh
