@@ -47,14 +47,15 @@ https://guake.readthedocs.io/en/latest/user/installing.html#install-from-source
 
 git clone https://github.com/Guake/guake.git
 
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python3  get-pip.py --user
+./scripts/bootstrap-dev-debian.sh run make
 
-sudo apt install -y libutempter0
+git fetch
+git tag
+git checkout 3.4.0
 
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshenv
-pip3 install --user guake pbr
+make
 
+sudo make install
 
 ## zsh
 
