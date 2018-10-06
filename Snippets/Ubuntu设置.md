@@ -43,13 +43,15 @@ sudo apt install -y nfs-common
 
 ## Guake
 
+https://guake.readthedocs.io/en/latest/user/installing.html#install-from-source
+
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3  get-pip.py --user
 
 sudo apt install -y libutempter0
 
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshenv
-pip3 install --user guake
+pip3 install --user guake pbr
 
 
 ## zsh
