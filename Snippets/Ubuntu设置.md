@@ -139,7 +139,7 @@ pipenv install requests
 
 cat > ~/.local/share/applicationsa/Story Write << EOF 
 #!/usr/bin/env xdg-open
-
+dd
 [Desktop Entry]
 Version=1.0
 Type=Application
