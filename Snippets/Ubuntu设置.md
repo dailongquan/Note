@@ -136,7 +136,7 @@ pipenv install requests
 # 菜单
 
 ```shell?linenums
-
+# 小书匠光标跟随
 cat > ~/.local/share/applications/story-write.desktop << EOF 
 #!/usr/bin/env xdg-open
 
@@ -151,6 +151,12 @@ Exec=/home/lqdai/Workbench/App/Story-writer/run.sh
 Name=Story Write
 EOF
 chmod u+x ~/.local/share/applications/story-write.desktop
+
+
+
+
+
+
 ```
 
 ## 开始菜单编辑
