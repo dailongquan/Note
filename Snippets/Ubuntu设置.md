@@ -43,6 +43,11 @@ sudo apt install -y nfs-common
 
 ## Guake
 
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3  get-pip.py --user
+
+sudo apt install -y libutempter0
+
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshenv
 pip3 install --user guake
 
@@ -79,8 +84,7 @@ sudo usermod -aG docker $USER
 
 ## Python
 
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python3  get-pip.py --user
+
 
 
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
