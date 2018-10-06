@@ -202,7 +202,7 @@ cat > $HOME/.local/share/applications/run_opera.sh << EOF
 
 GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/opera
 EOF
-chmod u+x $HOME/.local/share/applications/run_chrome.sh
+chmod u+x $HOME/.local/share/applications/run_opera.sh
 ```
 
 ## 开始菜单编辑
