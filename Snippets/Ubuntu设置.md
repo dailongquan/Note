@@ -58,7 +58,15 @@ make
 sudo make install
 
 ## zsh
+sudo apt install -y zsh
 
+/usr/bin/expect << EOF
+set timeout -1
+spawn chsh -s /bin/zsh
+expect -re {Password:} {send "$password\r"}
+expect eof
+EOF
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 ## LyX
 
