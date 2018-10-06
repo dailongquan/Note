@@ -137,7 +137,7 @@ pipenv install requests
 
 ```shell?linenums
 
-cat > "~/.local/share/applications/Story Write" << EOF 
+cat > "/home/lqdai/.local/share/applications/Story Write" << EOF 
 #!/usr/bin/env xdg-open
 dd
 [Desktop Entry]
