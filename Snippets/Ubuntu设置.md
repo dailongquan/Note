@@ -164,7 +164,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Icon=$HOME/.local/share/applications/wiznote.png
-Exec=$HOME/Workbench/App/Zotero_linux-x86_64/zotero
+Exec=$HOME/Workbench/App/WizNote.AppImage
 Name=WizNote
 EOF
 chmod u+x ~/.local/share/applications/wiznote.desktop
