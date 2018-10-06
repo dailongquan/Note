@@ -158,7 +158,7 @@ chmod u+x ~/.local/share/applications/story-write.desktop
 cat > ~/.local/share/applications/run_google_chrome.sh << EOF
 #!/usr/bin/env bash
 
-GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/google-chrome-stable
+GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/google-chrome-stable $1
 EOF
 
 
