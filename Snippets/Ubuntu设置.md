@@ -135,7 +135,7 @@ pipenv install requests
 
 # 菜单
 
-```shell?linenums
+```sh?linenums
 # 小书匠HiDPI光标跟随
 cat > ~/.local/share/applications/story-write.desktop << EOF 
 #!/usr/bin/env xdg-open
@@ -153,7 +153,7 @@ EOF
 chmod u+x ~/.local/share/applications/story-write.desktop
 
 
-￥￥
+# Chrome
 
 
 
