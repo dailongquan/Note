@@ -3,6 +3,9 @@ title: Ubuntu设置
 tags: Snippets
 grammar_cjkRuby: true
 ---
+
+# 安装配置
+
 ``` sh?linenums
 #!/user/bin/sh 
 
@@ -126,6 +129,11 @@ pyenv local 3.6.6 2.7.15
 curl https://raw.githubusercontent.com/kennethreitz/pipenv/master/get-pipenv.py | python
 pipenv install requests
 
+```
+
+
+
+
 
 
 
@@ -135,4 +143,3 @@ pipenv install requests
 sudo apt-get install mozo 
 
 sudo apt-get install alacarte
-```
