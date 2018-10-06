@@ -136,6 +136,26 @@ pipenv install requests
 # 菜单
 
 ```sh?linenums
+cat > ~/.local/share/applications/story-write.desktop << EOF 
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=/home/lqdai/Workbench/App/Zotero_linux-x86_64/chrome/icons/default/default256.png
+Icon[en_US]=/home/lqdai/Workbench/App/Story-writer/Story-writer.png
+Name[en_US]=Story Write
+Exec=/home/lqdai/Workbench/App/Story-writer/run.sh
+Name=Story Write
+EOF
+chmod u+x ~/.local/share/applications/story-write.desktop
+
+
+
+
+
+
 # 小书匠HiDPI光标跟随
 cat > ~/.local/share/applications/story-write.desktop << EOF 
 #!/usr/bin/env xdg-open
@@ -144,9 +164,7 @@ cat > ~/.local/share/applications/story-write.desktop << EOF
 Version=1.0
 Type=Application
 Terminal=false
-Icon=/home/lqdai/Workbench/App/Story-writer/Story-writer.png
-Icon[en_US]=/home/lqdai/Workbench/App/Story-writer/Story-writer.png
-Name[en_US]=Story Write
+Icon=$HOME/Workbench/App/Story-writer/Story-writer.png
 Exec=/home/lqdai/Workbench/App/Story-writer/run.sh
 Name=Story Write
 EOF
