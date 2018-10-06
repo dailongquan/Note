@@ -152,7 +152,10 @@ chmod u+x ~/.local/share/applications/zotero.desktop
 
 
 # Wiznote
-pushd /usr/local/sbin/
+pushd $HOME/.local/share/applications
+wget https://raw.githubusercontent.com/WizTeam/WizQTClient/master/resources/logo_512.png
+popd
+
 cat > $HOME/.local/share/applications/wiznote.desktop << EOF 
 #!/usr/bin/env xdg-open
 
