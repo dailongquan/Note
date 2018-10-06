@@ -246,4 +246,6 @@ chmod u+x ~/.local/share/applications/opera.desktop
 
 sudo apt-get install mozo 
 
-sudo apt-get install alacarte
+sudo apt-get install 
+
+flatpak install flathub org.zotero.Zotero
