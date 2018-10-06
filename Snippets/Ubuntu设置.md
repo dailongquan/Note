@@ -143,7 +143,7 @@ cat > ~/.local/share/applications/story-write.desktop << EOF
 Version=1.0
 Type=Application
 Terminal=false
-Icon=/home/lqdai/Workbench/App/Zotero_linux-x86_64/chrome/icons/default/default256.png
+Icon=$HOME/Workbench/App/Zotero_linux-x86_64/chrome/icons/default/default256.png
 Icon[en_US]=/home/lqdai/Workbench/App/Story-writer/Story-writer.png
 Name[en_US]=Story Write
 Exec=/home/lqdai/Workbench/App/Story-writer/run.sh
@@ -165,7 +165,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Icon=$HOME/Workbench/App/Story-writer/Story-writer.png
-Exec=/home/lqdai/Workbench/App/Story-writer/run.sh
+Exec=$HOME/Workbench/App/Story-writer/run.sh
 Name=Story Write
 EOF
 chmod u+x ~/.local/share/applications/story-write.desktop
