@@ -144,9 +144,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Icon=$HOME/Workbench/App/Zotero_linux-x86_64/chrome/icons/default/default256.png
-Icon[en_US]=/home/lqdai/Workbench/App/Story-writer/Story-writer.png
-Name[en_US]=Story Write
-Exec=/home/lqdai/Workbench/App/Story-writer/run.sh
+Exec=$HOME/Workbench/App/Zotero_linux-x86_64/zotero
 Name=Story Write
 EOF
 chmod u+x ~/.local/share/applications/story-write.desktop
