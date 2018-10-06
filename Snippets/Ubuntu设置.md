@@ -169,7 +169,7 @@ GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/google-chrome-stable --incognito
 EOF
 chmod u+x $HOME/.local/share/applications/run_incognito_chrome.sh
 
-cat > $HOME/.local/share/applications/chrome.desktop << EOF 
+cat > $HOME/.local/share/applications/google-chrome.desktop << EOF 
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
@@ -192,7 +192,7 @@ Name=New Incognito Window
 
 Exec=$HOME/.local/share/applications/run_incognito_chrome.sh 
 EOF
-chmod u+x ~/.local/share/applications/chrome.desktop
+chmod u+x ~/.local/share/applications/google-chrome.desktop
 
 
 # Opera HiDPI光标跟随
