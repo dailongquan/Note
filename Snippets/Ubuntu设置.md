@@ -135,9 +135,19 @@ pipenv install requests
 
 # 菜单
 
+```shell?linenums
+#!/usr/bin/env xdg-open
 
-
-
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=/home/lqdai/Workbench/App/Story-writer/Story-writer.png
+Icon[en_US]=/home/lqdai/Workbench/App/Story-writer/Story-writer.png
+Name[en_US]=Story Write
+Exec=/home/lqdai/Workbench/App/Story-writer/run.sh
+Name=Story Write
+```
 
 ## 开始菜单编辑
 
