@@ -200,7 +200,7 @@ chmod u+x ~/.local/share/applications/google-chrome.desktop
 cat > $HOME/.local/share/applications/run_opera.sh << EOF
 #!/usr/bin/env bash
 
-GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/opera
+GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/opera --new-window
 EOF
 chmod u+x $HOME/.local/share/applications/run_opera.sh
 ```
