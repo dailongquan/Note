@@ -136,7 +136,7 @@ pipenv install requests
 # 菜单
 
 ```sh?linenums
-cat > ~/.local/share/applications/story-write.desktop << EOF 
+cat > ~/.local/share/applications/zotero.desktop << EOF 
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
@@ -147,7 +147,7 @@ Icon=$HOME/Workbench/App/Zotero_linux-x86_64/chrome/icons/default/default256.png
 Exec=$HOME/Workbench/App/Zotero_linux-x86_64/zotero
 Name=Story Write
 EOF
-chmod u+x ~/.local/share/applications/story-write.desktop
+chmod u+x ~/.local/share/applications/zotero.desktop
 
 
 
