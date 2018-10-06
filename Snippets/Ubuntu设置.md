@@ -151,8 +151,20 @@ EOF
 chmod u+x ~/.local/share/applications/zotero.desktop
 
 
+# Wiznote
+pushd /usr/local/sbin/
+cat > ~/.local/share/applications/wiznote.desktop << EOF 
+#!/usr/bin/env xdg-open
 
-
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=$HOME/Workbench/App/Zotero_linux-x86_64/chrome/icons/default/default256.png
+Exec=$HOME/Workbench/App/Zotero_linux-x86_64/zotero
+Name=Wiznote
+EOF
+chmod u+x ~/.local/share/applications/wiznote.desktop
 
 
 # 小书匠HiDPI光标跟随
