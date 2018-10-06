@@ -178,7 +178,7 @@ Name=New Incognito Window
 
 Exec=/usr/bin/google-chrome-stable --incognito
 EOF
-chmod u+x ~/.local/share/applications/story-write.desktop
+chmod u+x ~/.local/share/applications/google-chrome.desktop
 # Opera HiDPI光标跟随
 ```
 
