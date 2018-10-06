@@ -160,6 +160,7 @@ cat > $HOME/.local/share/applications/run_google_chrome.sh << EOF
 
 GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/google-chrome-stable $1
 EOF
+chmod u+x $HOME/.local/share/applications/run_google_chrome.sh
 
 
 
@@ -179,12 +180,12 @@ Actions=new-window;new-private-window;
 
 [Desktop Action new-window]
 Name=New Window
-Exec=/usr/bin/google-chrome-stable
+Exec=$HOME/.local/share/applications/run_google_chrome.sh
 
 [Desktop Action new-private-window]
 Name=New Incognito Window
 
-Exec=/usr/bin/google-chrome-stable --incognito
+Exec=$HOME/.local/share/applications/run_google_chrome.sh --incognito
 EOF
 chmod u+x ~/.local/share/applications/google-chrome.desktop
 
