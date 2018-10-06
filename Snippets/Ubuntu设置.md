@@ -155,6 +155,12 @@ chmod u+x ~/.local/share/applications/story-write.desktop
 
 # Chrome HiDPI光标跟随
 
+cat > ~/.local/share/applications/run_google_chrome << EOF
+
+EOF
+
+
+
 cat > ~/.local/share/applications/google-chrome.desktop << EOF 
 #!/usr/bin/env xdg-open
 
