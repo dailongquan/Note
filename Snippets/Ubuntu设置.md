@@ -136,6 +136,8 @@ pipenv install requests
 # 菜单
 
 ```shell?linenums
+
+cat >a.txt << EOF 
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
@@ -147,6 +149,7 @@ Icon[en_US]=/home/lqdai/Workbench/App/Story-writer/Story-writer.png
 Name[en_US]=Story Write
 Exec=/home/lqdai/Workbench/App/Story-writer/run.sh
 Name=Story Write
+EOF
 ```
 
 ## 开始菜单编辑
