@@ -128,7 +128,6 @@ pyenv rehash
 pyenv local 3.6.6 2.7.15
 curl https://raw.githubusercontent.com/kennethreitz/pipenv/master/get-pipenv.py | python
 pipenv install requests
-
 ```
 
 
