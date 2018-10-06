@@ -155,18 +155,28 @@ chmod u+x ~/.local/share/applications/story-write.desktop
 
 # Chrome HiDPI光标跟随
 
-cat > ~/.local/share/applications/story-write.desktop << EOF 
+cat > ~/.local/share/applications/google-chrome.desktop << EOF 
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
 Version=1.0
 Type=Application
 Terminal=false
-Icon=/home/lqdai/Workbench/App/Story-writer/Story-writer.png
-Icon[en_US]=/home/lqdai/Workbench/App/Story-writer/Story-writer.png
-Name[en_US]=Story Write
-Exec=/home/lqdai/Workbench/App/Story-writer/run.sh
-Name=Story Write
+Icon=google-chrome
+Name=Google Chrome
+Exec=/home/lqdai/Workbench/App/Chrome/run_chrome.sh
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+Actions=new-window;new-private-window;
+
+[Desktop Action new-window]
+Name=New Window
+Exec=/usr/bin/google-chrome-stable
+
+[Desktop Action new-private-window]
+Name=New Incognito Window
+
+Exec=/usr/bin/google-chrome-stable --incognito
 EOF
 chmod u+x ~/.local/share/applications/story-write.desktop
 # Opera HiDPI光标跟随
