@@ -203,6 +203,14 @@ cat > $HOME/.local/share/applications/run_opera.sh << EOF
 GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/opera --new-window
 EOF
 chmod u+x $HOME/.local/share/applications/run_opera.sh
+
+
+cat > $HOME/.local/share/applications/run_incognito_opera.sh << EOF
+#!/usr/bin/env bash
+
+GDK_SCALE=1 GDK_DPI_SCALE=1 /usr/bin/opera --private
+EOF
+chmod u+x $HOME/.local/share/applications/run_incognito_opera.sh
 ```
 
 ## 开始菜单编辑
