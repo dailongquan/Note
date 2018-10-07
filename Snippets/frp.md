@@ -16,7 +16,7 @@ grammar_cjkRuby: true
 [common]
 server_addr = frpzj.kskxs.com
 server_port = 7000
-token =frp888
+token=frp888
 
 [secret_ssh]
 type = stcp
