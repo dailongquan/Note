@@ -228,15 +228,6 @@ test -d ~/Workbench/App/pycharm && rm -rf ~/Workbench/App/pycharm
 mv  ~/Workbench/App/pycharm-*  ~/Workbench/App/pycharm
 echo 'export PATH="$PATH:/home/lqdai/Workbench/App/pycharm/bin"' >> ~/.zshenv
 source ~/.zshenv
-
-
-version=2018.2.4
-test -d ~/Workbench/App/JetBrains || mkdir -p ~/Workbench/App/JetBrains
-
-
-
-
-
 ```
 
 
