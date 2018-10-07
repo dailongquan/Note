@@ -12,8 +12,8 @@ grammar_cjkRuby: true
 user=lqdai
 password=lqdai 
 
-## 安装expect openssh
-echo $password | sudo -S apt install -y expect openssh-client openssh-server
+## 安装expect openssh sshfs
+echo $password | sudo -S apt install -y expect openssh-client openssh-server sshfs  
 
 ## 设置openssh
 sudo systemctl enable sshd.service
