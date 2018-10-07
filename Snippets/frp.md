@@ -18,3 +18,22 @@ sk = abcdefg
 local_ip = 127.0.0.1
 local_port = 22
 ```
+
+
+```
+# frpc.ini
+[common]
+server_addr = x.x.x.x
+server_port = 7000
+
+[secret_ssh_visitor]
+type = stcp
+# stcp 的访问者
+role = visitor
+# 要访问的 stcp 代理的名字
+server_name = secret_ssh
+sk = abcdefg
+# 绑定本地端口用于访问 ssh 服务
+bind_addr = 127.0.0.1
+bind_port = 6000
+```
