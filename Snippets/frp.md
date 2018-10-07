@@ -23,8 +23,9 @@ local_port = 22
 ```
 # frpc.ini
 [common]
-server_addr = x.x.x.x
+server_addr = frpzj.kskxs.com
 server_port = 7000
+token = frp888
 
 [secret_ssh_visitor]
 type = stcp
