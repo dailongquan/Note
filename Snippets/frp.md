@@ -7,6 +7,7 @@ grammar_cjkRuby: true
 #!/user/bin/sh 
 ./frps -c ./frps.ini
 ```
+
 启动 frpc，转发内网的 ssh 服务，配置如下，不需要指定远程端口：
 
 ```
