@@ -3,6 +3,9 @@ title: Ubuntu设置
 tags: Snippets
 grammar_cjkRuby: true
 ---
+# 系统挂载
+``` sh?linenums
+```
 
 # 系统安装配置
 
@@ -18,6 +21,10 @@ echo $password | sudo -S apt install -y expect openssh-client openssh-server ssh
 ## 设置openssh
 sudo systemctl enable sshd.service
 sudo systemctl start sshd.service
+
+## 设置sshfs
+
+sudo gpasswd -a $USER fuse
 
 ## 设置root密码
 /usr/bin/expect << EOF
