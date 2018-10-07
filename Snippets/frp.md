@@ -4,7 +4,7 @@ tags: Snippets
 grammar_cjkRuby: true
 ---
 
-
+```
 # frpc.ini
 [common]
 server_addr = frpzj.kskxs.com
@@ -17,3 +17,4 @@ type = stcp
 sk = abcdefg
 local_ip = 127.0.0.1
 local_port = 22
+```
