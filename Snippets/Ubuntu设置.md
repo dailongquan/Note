@@ -4,8 +4,46 @@ tags: Snippets
 grammar_cjkRuby: true
 ---
 # 系统挂载
-``` sh?linenums
 
+## 本地机器
+``` sh?linenums
+[ ! -d /opt/Workbench ] && echo "Error"
+
+[ -d /opt/Workbench ] && sudo chmod 777 /opt/Workbench
+
+[ -L ~/Workbench ] && ln -snf /opt/Workbench ~
+
+[ ! -L ~/Workbench ] && ln -s /opt/Workbench ~
+
+[ ! -d /opt/Workbench-NAS ] && sudo mkdir /opt/Workbench-NAS 
+
+sudo chmod 777 /opt/Workbench-NAS
+
+sudo mount -o rw -t nfs -o vers=3 192.168.3.5://volume2/Workbench-Z1Z7AQCM-4T/Workbench  /opt/Workbench-NAS  
+sudo mount -o rw -t nfs -o vers=3 192.168.3.5://volume3/Data-ZDH1BLYG-4T   /opt/Workbench-NAS/Data  
+sudo mount -o rw -t nfs -o vers=3 192.168.3.5://volume4/Multimedia-ZDH1BMJ0-4T  /opt/Workbench-NAS/Multimedia  
+sudo mount -o rw -t nfs -o vers=3 192.168.3.5://volume1/Backup-ZA17H844-8T   /opt/Workbench-NAS/Backup  
+
+
+[ -L ~/Workbench-NAS ] && ln -snf /opt/Workbench-NAS ~
+
+[ ! -L ~/Workbench-NAS ] && ln -s /opt/Workbench-NAS ~
+
+
+[ -L ~/Shell ] && ln -snf /opt/Workbench-NAS/Bitbucket/Project/Shell ~
+
+[ ! -L ~/Shell ] && ln -s /opt/Workbench-NAS/Bitbucket/Project/Shell ~
+
+
+[ -L ~/Docker ] && ln -snf /opt/Workbench-NAS/Bitbucket/Project/Docker ~
+
+[ ! -L ~/Docker ] && ln -s /opt/Workbench-NAS/Bitbucket/Project/Docker ~
+
+
+
+
+mkdir ~/far_projects
+sshfs -p 10022 -o idmap=user $USER@127.0.0.1:/ ~/far_projects
 ```
 
 # 系统安装配置
