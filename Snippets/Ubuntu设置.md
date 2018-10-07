@@ -61,8 +61,8 @@ password=lqdai
 
 /usr/bin/expect << EOF
 set timeout -1
-spawn sshfs -p 10022 -o idmap=user $user@127.0.0.1:/opt/Workbench-NAS /opt/Workbench-NAS
-expect -re {$user@127.0.0.1's password:} {send "$password\r"}
+spawn sshfs -p 10022 -o idmap=user lqdai@127.0.0.1:/opt/Workbench-NAS /opt/Workbench-NAS
+expect -re {lqdai@127.0.0.1's password:} {send "lqdai\r"}
 expect eof
 EOF
 
