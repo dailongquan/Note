@@ -222,15 +222,21 @@ rm anaconda
 url=https://download.jetbrains.8686c.com/python/pycharm-professional-2018.2.4.tar.gz 
 test -d ~/Workbench/App || mkdir -p ~/Workbench/App
 wget -O ~/Workbench/App/pycharm-professional.tar.gz $url
+tar -xzvf ~/Workbench/App/pycharm-professional.tar.gz -C ~/Workbench/App
+rm ~/Workbench/App/pycharm-professional.tar.gz
+test -d ~/Workbench/App/pycharm && rm -rf ~/Workbench/App/pycharm
+mv  ~/Workbench/App/pycharm-*  ~/Workbench/App/pycharm
+echo 'export PATH="$PATH:/home/lqdai/Workbench/App/pycharm/bin"' >> ~/.zshenv
+source ~/.zshenv
+
 
 version=2018.2.4
 test -d ~/Workbench/App/JetBrains || mkdir -p ~/Workbench/App/JetBrains
 
-tar -xzvf ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz -C ~/Workbench/App/JetBrains
-test -d ~/Workbench/App/JetBrains/pycharm && rm -rf ~/Workbench/App/JetBrains/pycharm
-mv  ~/Workbench/App/JetBrains/pycharm-${version}  ~/Workbench/App/JetBrains/pycharm
-echo 'export PATH="$PATH：/home/lqdai/Workbench/App/JetBrains/pycharm/bin"' >> ~/.zshenv
-source ~/.zshenv
+
+
+
+
 ```
 
 
