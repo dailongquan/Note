@@ -4,6 +4,7 @@ tags: Snippets
 grammar_cjkRuby: true
 ---
 
+启动 frpc，转发内网的 ssh 服务，配置如下，不需要指定远程端口：
 ```
 # frpc.ini
 [common]
@@ -19,7 +20,7 @@ local_ip = 127.0.0.1
 local_port = 22
 ```
 
-
+在要访问这个服务的机器上启动另外一个 frpc，配置如下：
 ```
 # frpc.ini
 [common]
