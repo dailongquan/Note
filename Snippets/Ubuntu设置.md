@@ -46,6 +46,8 @@ mkdir ~/far_projects
 sshfs -p 10022 -o idmap=user $USER@127.0.0.1:/ ~/far_projects
 ```
 
+## 远程机器
+
 # 系统安装配置
 
 ``` sh?linenums
