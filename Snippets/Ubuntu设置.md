@@ -7,7 +7,7 @@ grammar_cjkRuby: true
 # 系统安装配置
 
 ``` sh?linenums
-#!/user/bin/sh 
+#!/usr/bin/env sh 
 
 user=lqdai
 password=lqdai 
