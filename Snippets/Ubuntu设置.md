@@ -7,6 +7,8 @@ grammar_cjkRuby: true
 
 ## 本地机器
 ``` sh?linenums
+#!/usr/bin/env sh 
+
 [ ! -d /opt/Workbench ] && echo "Error"
 
 [ -d /opt/Workbench ] && sudo chmod 777 /opt/Workbench
@@ -40,6 +42,8 @@ sudo mount -o rw -t nfs -o vers=3 192.168.3.5://volume1/Backup-ZA17H844-8T   /op
 
 ## 远程机器
 ``` sh?linenums
+#!/usr/bin/env sh 
+
 [ ! -d /opt/Workbench ] && echo "Error"
 
 [ -d /opt/Workbench ] && sudo chmod 777 /opt/Workbench
