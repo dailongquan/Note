@@ -43,5 +43,5 @@ server_name = secret_ssh
 sk = xxxxx
 # 绑定本地端口用于访问 ssh 服务
 bind_addr = 127.0.0.1
-bind_port = 22
+bind_port = 10022
 ```
