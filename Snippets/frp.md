@@ -14,7 +14,7 @@ token = frp888
 [secret_ssh]
 type = stcp
 # 只有 sk 一致的用户才能访问到此服务
-sk = abcdefg
+sk = xxxxx
 local_ip = 127.0.0.1
 local_port = 22
 ```
@@ -33,7 +33,7 @@ type = stcp
 role = visitor
 # 要访问的 stcp 代理的名字
 server_name = secret_ssh
-sk = abcdefg
+sk = xxxxx
 # 绑定本地端口用于访问 ssh 服务
 bind_addr = 127.0.0.1
 bind_port = 6000
