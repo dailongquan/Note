@@ -218,16 +218,15 @@ rm anaconda
 #conda config --add channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/'
 #conda config --set show_channel_urls yes
 
-### Pycharm(注意版本号)
-
+### Pycharm(注意版本号和下载链接)
 version=2018.2.4
 test -d ~/Workbench/App/JetBrains || mkdir -p ~/Workbench/App/JetBrains
 wget -O ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz https://download.jetbrains.8686c.com/python/pycharm-professional-${version}.tar.gz
 tar -xzvf ~/Workbench/App/JetBrains/pycharm-professional-${version}.tar.gz -C ~/Workbench/App/JetBrains
 test -d ~/Workbench/App/JetBrains/pycharm && rm -rf ~/Workbench/App/JetBrains/pycharm
 mv  ~/Workbench/App/JetBrains/pycharm-${version}  ~/Workbench/App/JetBrains/pycharm
-echo 'export PATH="/home/lqdai/Workbench/App/JetBrains/pycharm/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
+echo 'export PATH="$PATH：/home/lqdai/Workbench/App/JetBrains/pycharm/bin"' >> ~/.zshenv
+source ~/.zshenv
 ```
 
 
