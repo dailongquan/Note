@@ -56,7 +56,15 @@ sudo mount -o rw -t nfs -o vers=3 192.168.3.5://volume1/Backup-ZA17H844-8T   /op
 
 sudo chmod 777 /opt/Workbench-NAS
 
-sshfs -p 10022 -o idmap=user $USER@127.0.0.1:/ /opt/Workbench-NAS
+user=lqdai
+password=lqdai 
+
+/usr/bin/expect << EOF
+set timeout -1
+spawn sshfs -p 10022 -o idmap=user $user@127.0.0.1:/opt/Workbench-NAS /opt/Workbench-NAS
+expect -re {$user@127.0.0.1's password:} {send "$password\r"}
+expect eof
+EOF
 
 [ -L ~/Workbench-NAS ] && ln -snf /opt/Workbench-NAS ~
 
